@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "updated": "2026-09-30",
+    "phase": "consignment",
+    "reserveTarget": 500000000,
+    "shareUnit": 10000000,
+    "split": {
+      "reserve": 0.4,
+      "reinvest": 0.2,
+      "dividend": 0.4
+    },
+    "repo": "https://github.com/theding0x/eleventh-thesis-ledger"
+  },
+  "contributions": [],
+  "production": [
+    {
+      "id": 1,
+      "date": "2026-09-30",
+      "product": "Nova Heavy Missile",
+      "runs": 300,
+      "units": 30000,
+      "location": "Nonni VI Kaalakiota Factory, hangar 4",
+      "status": "in progress",
+      "note": "Job 1, installed by Kalek Tarn Mendol. About 36 h."
+    },
+    {
+      "id": 2,
+      "date": "2026-09-30",
+      "product": "Nova Heavy Missile",
+      "runs": 100,
+      "units": 10000,
+      "location": "Nonni VI Kaalakiota Factory, hangar 4",
+      "status": "queued",
+      "note": "Materials on hand; starts when job 1 frees the blueprint."
+    }
+  ],
+  "sales": [],
+  "costs": [
+    {
+      "id": 1,
+      "date": "2026-09-30",
+      "category": "blueprints",
+      "description": "Nova Heavy Missile Blueprint (NPC, Nonni I CNAP)",
+      "amount": 700000,
+      "note": ""
+    },
+    {
+      "id": 2,
+      "date": "2026-09-30",
+      "category": "materials",
+      "description": "Tritanium 140,400 @ 8.00 (Sobaseki structure)",
+      "amount": 1123200,
+      "note": "Estimate, to confirm"
+    },
+    {
+      "id": 3,
+      "date": "2026-09-30",
+      "category": "materials",
+      "description": "Nocxium 400 @ 760 (Sobaseki structure)",
+      "amount": 304000,
+      "note": "Estimate, to confirm"
+    },
+    {
+      "id": 4,
+      "date": "2026-09-30",
+      "category": "materials",
+      "description": "Pyerite 47,600 @ 17.28 (Jita 4-4)",
+      "amount": 822528,
+      "note": "Estimate, to confirm"
+    }
+  ],
+  "payouts": [],
+  "loans": [
+    {
+      "id": 1,
+      "date": "2026-09-30",
+      "lender": "Kalek Tarn Mendol",
+      "description": "Nova Heavy Missile Blueprint",
+      "kind": "advance",
+      "amount": 700000,
+      "estimate": false,
+      "note": ""
+    },
+    {
+      "id": 2,
+      "date": "2026-09-30",
+      "lender": "Kalek Tarn Mendol",
+      "description": "Minerals for 400 Nova runs",
+      "kind": "advance",
+      "amount": 2249728,
+      "estimate": true,
+      "note": "Sum of the three material costs"
+    }
+  ],
+  "distributions": []
+}
