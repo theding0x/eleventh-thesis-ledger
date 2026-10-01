@@ -48,9 +48,9 @@
       "id": 2,
       "date": "2026-09-30",
       "category": "materials",
-      "description": "Tritanium 140,400 @ 8.00 (Sobaseki structure)",
-      "amount": 1123200,
-      "note": "Estimate, to confirm"
+      "description": "Tritanium 140,400 (avg 3.75)",
+      "amount": 526500,
+      "note": ""
     },
     {
       "id": 3,
@@ -58,15 +58,15 @@
       "category": "materials",
       "description": "Nocxium 400 @ 760 (Sobaseki structure)",
       "amount": 304000,
-      "note": "Estimate, to confirm"
+      "note": ""
     },
     {
       "id": 4,
       "date": "2026-09-30",
       "category": "materials",
-      "description": "Pyerite 47,600 @ 17.28 (Jita 4-4)",
-      "amount": 822528,
-      "note": "Estimate, to confirm"
+      "description": "Pyerite 47,600 (avg 17.28, Jita 4-4)",
+      "amount": 822520,
+      "note": ""
     }
   ],
   "payouts": [],
@@ -87,9 +87,9 @@
       "lender": "Kalek Tarn Mendol",
       "description": "Minerals for 400 Nova runs",
       "kind": "advance",
-      "amount": 2249728,
-      "estimate": true,
-      "note": "Sum of the three material costs"
+      "amount": 1653020,
+      "estimate": false,
+      "note": "Tritanium 526,500 + Nocxium 304,000 + Pyerite 822,520"
     }
   ],
   "distributions": []
