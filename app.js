@@ -114,7 +114,7 @@
     return out + "</tbody></table></div>";
   }
 
-  function tile(k, v, s, extra) { return '<div class="tile"><span class="k">' + esc(k) + '</span><span class="v' + (extra || "") + '">' + esc(v) + '</span><span class="s">' + esc(s) + "</span></div>"; }
+  function tile(k, v, s, extra) { return '<div class="tile"><span class="br"></span><span class="k">' + esc(k) + '</span><span class="v' + (extra || "") + '">' + esc(v) + '</span><span class="s">' + esc(s) + "</span></div>"; }
 
   function render() {
     var F = figures(), pct = Math.max(0, Math.min(100, F.reserve / D.meta.reserveTarget * 100));
@@ -127,7 +127,7 @@
       tile("Contributed value", mil(F.contributed), "Members' goods, valued at delivery") +
       tile("Earned shares", num(F.shares, 2), "1 share per 10 M ISK") +
       tile("Surplus to date", mil(F.surplus), F.sales ? "Sales, less payouts and costs" : "Costs only; first sale pending", F.surplus < 0 ? " neg" : "") +
-      '<div class="tile"><span class="k">Reserve</span><span class="v">' + mil(F.reserve) + '</span><div class="meter" role="img" aria-label="' + num(pct, 1) + '% of 500 M target"><i style="width:' + pct + '%"></i></div><span class="s">' + num(pct, 1) + "% of 500 M, when instant payment starts</span></div>" +
+      '<div class="tile"><span class="br"></span><span class="k">Reserve</span><span class="v">' + mil(F.reserve) + '</span><div class="meter" role="img" aria-label="' + num(pct, 1) + '% of 500 M target"><i style="width:' + pct + '%"></i></div><span class="s">' + num(pct, 1) + "% of 500 M, when instant payment starts</span></div>" +
       tile("Founder loan", mil(F.loan), F.est ? "Outstanding; includes estimates" : "Outstanding, interest-free") + "</section>";
     html += '<nav class="tabs" role="tablist" aria-label="Books">' + ORDER.map(function (k) { return '<button role="tab" data-tab="' + k + '" aria-selected="' + (k === tab) + '">' + esc(BOOKS[k].label) + "</button>"; }).join("") + "</nav>";
     html += renderBook(tab);
