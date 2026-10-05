@@ -19,7 +19,7 @@
       "item": "Fertilizer",
       "qty": 1880,
       "unit": 9734,
-      "status": "held",
+      "status": "sold",
       "note": "Founder PI (Okagaiken V), item-exchange contract to corp at Nonni VI, Contributions hangar. Consignment, Art. III-IV; founding plan §10.5."
     }
   ],
@@ -45,7 +45,18 @@
       "note": "Materials on hand; starts when job 1 frees the blueprint."
     }
   ],
-  "sales": [],
+  "sales": [
+    {
+      "id": 1,
+      "date": "2026-10-05",
+      "item": "Fertilizer",
+      "qty": 1880,
+      "gross": 20830400,
+      "fees": 2060348.92,
+      "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
+      "note": "Corp sell order at 11,080 into Contributor Payouts. Fees: broker 498,068.92 (2.39%) + sales tax 1,562,280 (7.5%). Lot: contribution 1 (Kalek, consignment)."
+    }
+  ],
   "costs": [
     {
       "id": 1,
