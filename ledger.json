@@ -30,9 +30,9 @@
       "product": "Nova Heavy Missile",
       "runs": 300,
       "units": 30000,
-      "location": "Nonni VI Kaalakiota Factory, hangar 4",
-      "status": "in progress",
-      "note": "Job 1, installed by Kalek Tarn Mendol. About 36 h."
+      "location": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
+      "status": "delivered",
+      "note": "Job 1, installed by Kalek Tarn Mendol. Delivered; listed at Jita 4-4 with lot 2 (40,000 total) at 50.03 on 5 Oct."
     },
     {
       "id": 2,
@@ -40,9 +40,9 @@
       "product": "Nova Heavy Missile",
       "runs": 100,
       "units": 10000,
-      "location": "Nonni VI Kaalakiota Factory, hangar 4",
-      "status": "queued",
-      "note": "Materials on hand; starts when job 1 frees the blueprint."
+      "location": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
+      "status": "delivered",
+      "note": "Job 2. Delivered; listed at Jita 4-4 with lot 1 at 50.03 on 5 Oct."
     }
   ],
   "sales": [
