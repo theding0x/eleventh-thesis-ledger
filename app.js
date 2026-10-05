@@ -67,7 +67,11 @@
     var adv = sum(D.loans.filter(function (l) { return l.kind === "advance"; }), function (r) { return r.amount; });
     var rep = sum(D.loans.filter(function (l) { return l.kind === "repayment"; }), function (r) { return r.amount; });
     var reserve = sum(D.distributions, function (r) { return r.reserve; }) - rep;
-    return { contributed: contributed, shares: contributed / D.meta.shareUnit, surplus: surplus, reserve: reserve, loan: adv - rep,
+    // Cash available to pay contributors: the reserve, plus founder loans received, plus surplus not yet distributed.
+    // Loans already spent on costs are netted out through the surplus (Art. IV.2, VII.4).
+    var undistributed = surplus - sum(D.distributions, function (r) { return Number(r.surplus) || 0; });
+    var liquidity = reserve + adv + undistributed;
+    return { contributed: contributed, shares: contributed / D.meta.shareUnit, surplus: surplus, reserve: reserve, loan: adv - rep, liquidity: liquidity,
       est: D.loans.some(function (l) { return l.estimate; }), sales: D.sales.length };
   }
 
@@ -117,7 +121,7 @@
   function tile(k, v, s, extra) { return '<div class="tile"><span class="br"></span><span class="k">' + esc(k) + '</span><span class="v' + (extra || "") + '">' + esc(v) + '</span><span class="s">' + esc(s) + "</span></div>"; }
 
   function render() {
-    var F = figures(), pct = Math.max(0, Math.min(100, F.reserve / D.meta.reserveTarget * 100));
+    var F = figures(), liq = F.liquidity, pct = Math.max(0, Math.min(100, liq / D.meta.reserveTarget * 100));
     var repo = D.meta.repo || "";
     var html = '<header class="mast"><div class="eyebrow"><b>ELEVE</b> · Open ledger · Constitution Art. III.4</div><h1>Eleventh Thesis Ledger</h1>' +
       '<div class="meta"><span>Phase <span class="pill">' + esc(D.meta.phase) + '</span></span><span>Valued at <b>Jita 4-4 buy</b></span><span>Updated <b>' + esc(D.meta.updated) + "</b></span>" +
@@ -127,7 +131,7 @@
       tile("Contributed value", mil(F.contributed), "Members' goods, valued at delivery") +
       tile("Earned shares", num(F.shares, 2), "1 share per 10 M ISK") +
       tile("Surplus to date", mil(F.surplus), F.sales ? "Sales, less payouts and costs" : "Costs only; first sale pending", F.surplus < 0 ? " neg" : "") +
-      '<div class="tile"><span class="br"></span><span class="k">Reserve</span><span class="v">' + mil(F.reserve) + '</span><div class="meter" role="img" aria-label="' + num(pct, 1) + '% of 500 M target"><i style="width:' + pct + '%"></i></div><span class="s">' + num(pct, 1) + "% of 500 M, when instant payment starts</span></div>" +
+      '<div class="tile"><span class="br"></span><span class="k">Payment liquidity</span><span class="v">' + mil(liq) + '</span><div class="meter" role="img" aria-label="' + num(pct, 1) + '% of 500 M target"><i style="width:' + pct + '%"></i></div><span class="s">Reserve, unspent founder loans and undistributed surplus · ' + num(pct, 1) + "% of 500 M, when instant payment starts (Art. IV.2, VII.4)</span></div>" +
       tile("Founder loan", mil(F.loan), F.est ? "Outstanding; includes estimates" : "Outstanding, interest-free") + "</section>";
     html += '<nav class="tabs" role="tablist" aria-label="Books">' + ORDER.map(function (k) { return '<button role="tab" data-tab="' + k + '" aria-selected="' + (k === tab) + '">' + esc(BOOKS[k].label) + "</button>"; }).join("") + "</nav>";
     html += renderBook(tab);
