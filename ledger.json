@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-30",
+    "updated": "2026-10-05",
     "phase": "consignment",
     "reserveTarget": 500000000,
     "shareUnit": 10000000,
@@ -11,7 +11,18 @@
     },
     "repo": "https://github.com/theding0x/eleventh-thesis-ledger"
   },
-  "contributions": [],
+  "contributions": [
+    {
+      "id": 1,
+      "date": "2026-10-05",
+      "member": "Kalek Tarn Mendol",
+      "item": "Fertilizer",
+      "qty": 1880,
+      "unit": 9734,
+      "status": "held",
+      "note": "Founder PI (Okagaiken V), item-exchange contract to corp at Nonni VI, Contributions hangar. Consignment, Art. III-IV; founding plan §10.5."
+    }
+  ],
   "production": [
     {
       "id": 1,
