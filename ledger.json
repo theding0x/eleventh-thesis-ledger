@@ -19,7 +19,7 @@
       "item": "Fertilizer",
       "qty": 1880,
       "unit": 9734,
-      "status": "sold",
+      "status": "paid",
       "note": "Founder PI (Okagaiken V), item-exchange contract to corp at Nonni VI, Contributions hangar. Consignment, Art. III-IV; founding plan §10.5."
     }
   ],
@@ -91,7 +91,16 @@
       "note": ""
     }
   ],
-  "payouts": [],
+  "payouts": [
+    {
+      "id": 1,
+      "date": "2026-10-05",
+      "member": "Kalek Tarn Mendol",
+      "kind": "consignment",
+      "amount": 16893045.97,
+      "note": "90% of net sale 18,770,051.08 for contribution 1 (1,880 Fertilizer), Art. IV.1. Settled net: 3,378,609.19 paid out; the rest lent back (loan 3)."
+    }
+  ],
   "loans": [
     {
       "id": 1,
@@ -112,6 +121,16 @@
       "amount": 1653020,
       "estimate": false,
       "note": "Tritanium 526,500 + Nocxium 304,000 + Pyerite 822,520"
+    },
+    {
+      "id": 3,
+      "date": "2026-10-05",
+      "lender": "Kalek Tarn Mendol",
+      "description": "Consignment payout lent back (80%)",
+      "kind": "advance",
+      "amount": 13514436.78,
+      "estimate": false,
+      "note": "Founding plan §10.5 (option C), Art. VII. Held in Founder Loan wallet (division 7). No shares, no dividends."
     }
   ],
   "distributions": []
