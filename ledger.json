@@ -21,6 +21,86 @@
       "unit": 9734,
       "status": "paid",
       "note": "Founder PI (Okagaiken V), item-exchange contract to corp at Nonni VI, Contributions hangar. Consignment, Art. III-IV; founding plan §10.5."
+    },
+    {
+      "id": 2,
+      "date": "2026-09-30",
+      "member": "Kal'dor Aubaris",
+      "item": "Tritanium",
+      "qty": 120000,
+      "unit": 3.96,
+      "status": "held",
+      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (buy order by Kalek Tarn Mendol, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 3,
+      "date": "2026-09-30",
+      "member": "Kal'dor Aubaris",
+      "item": "Pyerite",
+      "qty": 22500,
+      "unit": 17.33,
+      "status": "held",
+      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (buy order by Kalek Tarn Mendol, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 4,
+      "date": "2026-09-30",
+      "member": "Kal'dor Aubaris",
+      "item": "Mexallon",
+      "qty": 9375,
+      "unit": 51.7,
+      "status": "held",
+      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (buy order by Kalek Tarn Mendol, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 5,
+      "date": "2026-09-30",
+      "member": "Kal'dor Aubaris",
+      "item": "Isogen",
+      "qty": 1875,
+      "unit": 159,
+      "status": "held",
+      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (buy order by Kalek Tarn Mendol, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 6,
+      "date": "2026-10-05",
+      "member": "Kalek Tarn Mendol",
+      "item": "Tritanium",
+      "qty": 496000,
+      "unit": 3.92,
+      "status": "held",
+      "note": "Founder contribution: materials for Scourge Heavy (400 runs, job 674033863) and Scourge Light (800 runs, job 674033884). Valued at the Jita 4-4 price paid on delivery day (5 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 7,
+      "date": "2026-10-05",
+      "member": "Kalek Tarn Mendol",
+      "item": "Pyerite",
+      "qty": 64800,
+      "unit": 16.36,
+      "status": "held",
+      "note": "Founder contribution: materials for Scourge Heavy (400 runs, job 674033863) and Scourge Light (800 runs, job 674033884). Valued at the Jita 4-4 price paid on delivery day (5 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 8,
+      "date": "2026-10-05",
+      "member": "Kalek Tarn Mendol",
+      "item": "Nocxium",
+      "qty": 1200,
+      "unit": 677.2,
+      "status": "held",
+      "note": "Founder contribution: materials for Scourge Heavy (400 runs, job 674033863) and Scourge Light (800 runs, job 674033884). Valued at the Jita 4-4 price paid on delivery day (5 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 9,
+      "date": "2026-10-05",
+      "member": "Kalek Tarn Mendol",
+      "item": "Mexallon",
+      "qty": 800,
+      "unit": 51.71,
+      "status": "held",
+      "note": "Founder contribution: materials for Scourge Heavy (400 runs, job 674033863) and Scourge Light (800 runs, job 674033884). Valued at the Jita 4-4 price paid on delivery day (5 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     }
   ],
   "production": [
@@ -43,6 +123,46 @@
       "location": "Nonni VI - Kaalakiota Corporation Factory",
       "status": "sold",
       "note": "Job 673515190, installed by Kalek Tarn Mendol. Sold at Jita 4-4 with lot 1 (sale 2)."
+    },
+    {
+      "id": 3,
+      "date": "2026-09-30",
+      "product": "Bantam",
+      "runs": 5,
+      "units": 5,
+      "location": "Nonni VI - Kaalakiota Corporation Factory",
+      "status": "delivered",
+      "note": "Job 673487371, installed by Kal'dor Aubaris; delivered 2 Oct. Materials: contributions (Kal'dor)."
+    },
+    {
+      "id": 4,
+      "date": "2026-10-02",
+      "product": "Scourge Rocket",
+      "runs": 189,
+      "units": 18900,
+      "location": "Nonni VI - Kaalakiota Corporation Factory",
+      "status": "delivered",
+      "note": "Job 673733851, installed by Kalek Tarn Mendol; delivered 5 Oct. Material source not yet recorded."
+    },
+    {
+      "id": 5,
+      "date": "2026-10-05",
+      "product": "Scourge Heavy Missile",
+      "runs": 400,
+      "units": 40000,
+      "location": "Nonni VI - Kaalakiota Corporation Factory",
+      "status": "in progress",
+      "note": "Job 674033863, installed by Kalek Tarn Mendol; ends 7 Oct 01:44 UTC. Materials: contributions (Kalek)."
+    },
+    {
+      "id": 6,
+      "date": "2026-10-05",
+      "product": "Scourge Light Missile",
+      "runs": 800,
+      "units": 80000,
+      "location": "Nonni VI - Kaalakiota Corporation Factory",
+      "status": "in progress",
+      "note": "Job 674033884, installed by Kalek Tarn Mendol; ends 7 Oct 01:45 UTC. Materials: contributions (Kalek)."
     }
   ],
   "sales": [
@@ -123,6 +243,78 @@
       "description": "Nova Heavy Missile, 300 runs (job 673599089)",
       "amount": 89904,
       "note": "Manufacturing fee 87,588 + facility tax 2,316, division 3. Production lot 1."
+    },
+    {
+      "id": 8,
+      "date": "2026-09-29",
+      "category": "office",
+      "description": "Office rental, Nonni (CBD Corporation)",
+      "amount": 10000,
+      "note": "Division 1 journal."
+    },
+    {
+      "id": 9,
+      "date": "2026-09-30",
+      "category": "office",
+      "description": "Office rental, Nonni VI Kaalakiota Corporation Factory",
+      "amount": 10000,
+      "note": "Division 1 journal."
+    },
+    {
+      "id": 10,
+      "date": "2026-09-30",
+      "category": "office",
+      "description": "Office rental, Caldari Funds Unlimited (HQ)",
+      "amount": 10000,
+      "note": "Division 1 journal."
+    },
+    {
+      "id": 11,
+      "date": "2026-09-30",
+      "category": "other",
+      "description": "Corporation logo change",
+      "amount": 100,
+      "note": "Division 1 journal."
+    },
+    {
+      "id": 12,
+      "date": "2026-09-30",
+      "category": "other",
+      "description": "Corp project payout: Home Guard goal",
+      "amount": 25000,
+      "note": "Division 1 journal (project_payouts)."
+    },
+    {
+      "id": 13,
+      "date": "2026-09-30",
+      "category": "job fees",
+      "description": "Bantam, 5 runs (job 673487371)",
+      "amount": 126580,
+      "note": "Manufacturing fee 123,338 + facility tax 3,242, division 1."
+    },
+    {
+      "id": 14,
+      "date": "2026-10-02",
+      "category": "job fees",
+      "description": "Scourge Rocket, 189 runs (job 673733851)",
+      "amount": 7330,
+      "note": "Manufacturing fee 7,141 + facility tax 189, division 3."
+    },
+    {
+      "id": 15,
+      "date": "2026-10-05",
+      "category": "job fees",
+      "description": "Scourge Heavy Missile, 400 runs (job 674033863)",
+      "amount": 148355,
+      "note": "Manufacturing fee 144,577 + facility tax 3,778, division 3."
+    },
+    {
+      "id": 16,
+      "date": "2026-10-05",
+      "category": "job fees",
+      "description": "Scourge Light Missile, 800 runs (job 674033884)",
+      "amount": 62174,
+      "note": "Manufacturing fee 60,591 + facility tax 1,583, division 3."
     }
   ],
   "payouts": [
@@ -175,6 +367,26 @@
       "amount": 2250000,
       "estimate": false,
       "note": "Transferred to Master Wallet to pay for the recruitment ad (cost 5). Art. VII: interest-free, no shares, no dividends, repaid only from the reserve."
+    },
+    {
+      "id": 5,
+      "date": "2026-10-05",
+      "lender": "Kalek Tarn Mendol",
+      "description": "Scourge Heavy Missile Blueprint",
+      "kind": "advance",
+      "amount": 750000,
+      "estimate": false,
+      "note": "Bought at Jita 4-4. Blueprint treated as founder capital (Art. VII), like the Nova blueprint (loan 1)."
+    },
+    {
+      "id": 6,
+      "date": "2026-10-05",
+      "lender": "Kalek Tarn Mendol",
+      "description": "Scourge Light Missile Blueprint",
+      "kind": "advance",
+      "amount": 150000,
+      "estimate": false,
+      "note": "Bought at Jita 4-4. Blueprint treated as founder capital (Art. VII), like the Nova blueprint (loan 1)."
     }
   ],
   "distributions": []
