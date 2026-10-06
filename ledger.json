@@ -30,7 +30,7 @@
       "qty": 120000,
       "unit": 3.96,
       "status": "held",
-      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (buy order by Kalek Tarn Mendol, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (bought by Kalek Tarn Mendol on Kal'dor's behalf, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
       "id": 3,
@@ -40,7 +40,7 @@
       "qty": 22500,
       "unit": 17.33,
       "status": "held",
-      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (buy order by Kalek Tarn Mendol, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (bought by Kalek Tarn Mendol on Kal'dor's behalf, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
       "id": 4,
@@ -50,7 +50,7 @@
       "qty": 9375,
       "unit": 51.7,
       "status": "held",
-      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (buy order by Kalek Tarn Mendol, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (bought by Kalek Tarn Mendol on Kal'dor's behalf, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
       "id": 5,
@@ -60,7 +60,7 @@
       "qty": 1875,
       "unit": 159,
       "status": "held",
-      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (buy order by Kalek Tarn Mendol, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+      "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (bought by Kalek Tarn Mendol on Kal'dor's behalf, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
       "id": 6,
@@ -101,6 +101,26 @@
       "unit": 51.71,
       "status": "held",
       "note": "Founder contribution: materials for Scourge Heavy (400 runs, job 674033863) and Scourge Light (800 runs, job 674033884). Valued at the Jita 4-4 price paid on delivery day (5 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 10,
+      "date": "2026-10-02",
+      "member": "Kalek Tarn Mendol",
+      "item": "Tritanium",
+      "qty": 20000,
+      "unit": 3.92,
+      "status": "held",
+      "note": "Founder contribution: materials for Scourge Rocket (189 runs, job 673733851). Valued at the Jita 4-4 price paid on delivery day (2 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 11,
+      "date": "2026-10-02",
+      "member": "Kalek Tarn Mendol",
+      "item": "Pyerite",
+      "qty": 20000,
+      "unit": 16.8,
+      "status": "held",
+      "note": "Founder contribution: materials for Scourge Rocket (189 runs, job 673733851). Valued at the Jita 4-4 price paid on delivery day (2 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     }
   ],
   "production": [
@@ -142,7 +162,7 @@
       "units": 18900,
       "location": "Nonni VI - Kaalakiota Corporation Factory",
       "status": "delivered",
-      "note": "Job 673733851, installed by Kalek Tarn Mendol; delivered 5 Oct. Material source not yet recorded."
+      "note": "Job 673733851, installed by Kalek Tarn Mendol; delivered 5 Oct. Materials: contributions (Kalek)."
     },
     {
       "id": 5,
