@@ -89,6 +89,14 @@
       "description": "Pyerite 47,600 (avg 17.28, Jita 4-4)",
       "amount": 822520,
       "note": ""
+    },
+    {
+      "id": 5,
+      "date": "2026-10-05",
+      "category": "recruitment",
+      "description": "In-game corporation recruitment ad",
+      "amount": 2250000,
+      "note": "Paid from Master Wallet (division 1), funded by founder loan 4 from Kal'dor Aubaris."
     }
   ],
   "payouts": [
@@ -131,6 +139,16 @@
       "amount": 13514436.78,
       "estimate": false,
       "note": "Founding plan §10.5 (option C), Art. VII. Held in Founder Loan wallet (division 7). No shares, no dividends."
+    },
+    {
+      "id": 4,
+      "date": "2026-10-05",
+      "lender": "Kal'dor Aubaris",
+      "description": "Recruitment ad",
+      "kind": "advance",
+      "amount": 2250000,
+      "estimate": false,
+      "note": "Transferred to Master Wallet to pay for the recruitment ad (cost 5). Art. VII: interest-free, no shares, no dividends, repaid only from the reserve."
     }
   ],
   "distributions": []
