@@ -121,6 +121,16 @@
       "unit": 16.8,
       "status": "held",
       "note": "Founder contribution: materials for Scourge Rocket (189 runs, job 673733851). Valued at the Jita 4-4 price paid on delivery day (2 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 12,
+      "date": "2026-10-06",
+      "member": "Kalek Tarn Mendol",
+      "item": "Tritanium",
+      "qty": 1200,
+      "unit": 3.9,
+      "status": "held",
+      "note": "Founder contribution: tops up division 4 for Nova Heavy Missile (400 runs, job 674276369). Bought by buy order at Jita 4-4 at 3.90; valued at the price paid on delivery day (6 Oct). Delivered to the factory directly, not by contract."
     }
   ],
   "production": [
@@ -183,6 +193,16 @@
       "location": "Nonni VI - Kaalakiota Corporation Factory",
       "status": "in progress",
       "note": "Job 674033884, installed by Kalek Tarn Mendol; ends 7 Oct 01:45 UTC. Materials: contributions (Kalek)."
+    },
+    {
+      "id": 7,
+      "date": "2026-10-06",
+      "product": "Nova Heavy Missile",
+      "runs": 400,
+      "units": 40000,
+      "location": "Nonni VI - Kaalakiota Corporation Factory",
+      "status": "in progress",
+      "note": "Job 674276369, installed by Kalek Tarn Mendol; ends 8 Oct 21:00 UTC. Materials: contributions (Kalek): contribution 12 plus minerals already held in division 4."
     }
   ],
   "sales": [
@@ -335,6 +355,14 @@
       "description": "Scourge Light Missile, 800 runs (job 674033884)",
       "amount": 62174,
       "note": "Manufacturing fee 60,591 + facility tax 1,583, division 3."
+    },
+    {
+      "id": 17,
+      "date": "2026-10-06",
+      "category": "job fees",
+      "description": "Nova Heavy Missile, 400 runs (job 674276369)",
+      "amount": 122100,
+      "note": "Manufacturing fee 119,012 + facility tax 3,088, division 3. Funded by a 150,000 transfer from division 1 to division 3 by Kal'dor Aubaris (journal 26119471358). Production lot 7."
     }
   ],
   "payouts": [
