@@ -182,7 +182,7 @@
       "units": 5,
       "location": "Nonni VI - Kaalakiota Corporation Factory",
       "status": "delivered",
-      "note": "Job 673487371, installed by Kal'dor Aubaris; delivered 2 Oct. Materials: contributions (Kal'dor)."
+      "note": "Job 673487371, installed by Kal'dor Aubaris; delivered 2 Oct. Materials: contributions (Kal'dor). Hauled to Jita 4-4 by Kalek Tarn Mendol on 7 Oct and contracted to Jormon Praetor; not yet listed (division 3 could not cover the ~19k broker fee)."
     },
     {
       "id": 4,
@@ -192,7 +192,7 @@
       "units": 18900,
       "location": "Nonni VI - Kaalakiota Corporation Factory",
       "status": "delivered",
-      "note": "Job 673733851, installed by Kalek Tarn Mendol; delivered 5 Oct. Materials: contributions (Kalek)."
+      "note": "Job 673733851, installed by Kalek Tarn Mendol; delivered 5 Oct. Materials: contributions (Kalek). Hauled to Jita 4-4 on 7 Oct; listed by Jormon Praetor, corp sell order 7439217762 at 5.24 into division 3 (broker fee 2,376.75, journal 26123390360). Sale to follow when the order fills."
     },
     {
       "id": 5,
@@ -202,7 +202,7 @@
       "units": 40000,
       "location": "Nonni VI - Kaalakiota Corporation Factory",
       "status": "delivered",
-      "note": "Job 674033863, installed by Kalek Tarn Mendol; delivered 7 Oct to division 3. Materials: contributions (Kalek)."
+      "note": "Job 674033863, installed by Kalek Tarn Mendol; delivered 7 Oct to division 3. Materials: contributions (Kalek). Hauled to Jita 4-4 on 7 Oct; listed by Jormon Praetor, corp sell order 7439217229 at 62.46 into division 3 (broker fee 59,958.66, journal 26123387909). Sale to follow when the order fills."
     },
     {
       "id": 6,
@@ -212,7 +212,7 @@
       "units": 80000,
       "location": "Nonni VI - Kaalakiota Corporation Factory",
       "status": "delivered",
-      "note": "Job 674033884, installed by Kalek Tarn Mendol; delivered 7 Oct to division 3. Materials: contributions (Kalek)."
+      "note": "Job 674033884, installed by Kalek Tarn Mendol; delivered 7 Oct to division 3. Materials: contributions (Kalek). Hauled to Jita 4-4 on 7 Oct; listed by Jormon Praetor, corp sell order 7439217605 at 13.49 into division 3 (broker fee 25,899.53, journal 26123389410). 500 filled on 7 Oct (transaction 6888737176); sale to follow when the order fills."
     },
     {
       "id": 7,
