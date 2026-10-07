@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-06",
+    "updated": "2026-10-07",
     "phase": "consignment",
     "reserveTarget": 500000000,
     "shareUnit": 10000000,
@@ -131,6 +131,26 @@
       "unit": 3.9,
       "status": "held",
       "note": "Founder contribution: tops up division 4 for Nova Heavy Missile (400 runs, job 674276369). Bought by buy order at Jita 4-4 at 3.90; valued at the price paid on delivery day (6 Oct). Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 13,
+      "date": "2026-10-07",
+      "member": "Kal'dor Aubaris",
+      "item": "Tritanium",
+      "qty": 87203,
+      "unit": 3.53,
+      "status": "held",
+      "note": "Founder contribution: Kal'dor's mined Scordite II-Grade, 15,999.9 m3 (106,666 units; 1,066 batches, 66-unit remainder left in division 4), reprocessed by Kal'dor at Nonni VI KC Factory straight into division 4. Quantity computed, not read from the window: 158 Tritanium per 100 x 54.5% yield (Reprocessing III, no Reprocessing Efficiency or Simple Ore Processing) x 95% after the 5% NPC station tax. Valued at the Jita 4-4 best buy on delivery day (7 Oct); mined, not bought. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 14,
+      "date": "2026-10-07",
+      "member": "Kal'dor Aubaris",
+      "item": "Pyerite",
+      "qty": 62919,
+      "unit": 16.15,
+      "status": "held",
+      "note": "Founder contribution: Kal'dor's mined Scordite II-Grade, 15,999.9 m3 (106,666 units; 1,066 batches, 66-unit remainder left in division 4), reprocessed by Kal'dor at Nonni VI KC Factory straight into division 4. Quantity computed, not read from the window: 114 Pyerite per 100 x 54.5% yield (Reprocessing III, no Reprocessing Efficiency or Simple Ore Processing) x 95% after the 5% NPC station tax. Valued at the Jita 4-4 best buy on delivery day (7 Oct); mined, not bought. Delivered to the factory directly, not by contract."
     }
   ],
   "production": [
@@ -181,8 +201,8 @@
       "runs": 400,
       "units": 40000,
       "location": "Nonni VI - Kaalakiota Corporation Factory",
-      "status": "in progress",
-      "note": "Job 674033863, installed by Kalek Tarn Mendol; ends 7 Oct 01:44 UTC. Materials: contributions (Kalek)."
+      "status": "delivered",
+      "note": "Job 674033863, installed by Kalek Tarn Mendol; delivered 7 Oct to division 3. Materials: contributions (Kalek)."
     },
     {
       "id": 6,
@@ -191,8 +211,8 @@
       "runs": 800,
       "units": 80000,
       "location": "Nonni VI - Kaalakiota Corporation Factory",
-      "status": "in progress",
-      "note": "Job 674033884, installed by Kalek Tarn Mendol; ends 7 Oct 01:45 UTC. Materials: contributions (Kalek)."
+      "status": "delivered",
+      "note": "Job 674033884, installed by Kalek Tarn Mendol; delivered 7 Oct to division 3. Materials: contributions (Kalek)."
     },
     {
       "id": 7,
