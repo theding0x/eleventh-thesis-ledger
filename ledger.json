@@ -211,8 +211,8 @@
       "runs": 800,
       "units": 80000,
       "location": "Nonni VI - Kaalakiota Corporation Factory",
-      "status": "delivered",
-      "note": "Job 674033884, installed by Kalek Tarn Mendol; delivered 7 Oct to division 3. Materials: contributions (Kalek). Hauled to Jita 4-4 on 7 Oct; listed by Jormon Praetor, corp sell order 7439217605 at 13.49 into division 3 (broker fee 25,899.53, journal 26123389410). 26,944 filled by 8 Oct 00:09 UTC (transactions 6888737176, 6888744221, 6888751798, 6888754392, 6888811412); the order was gone from the Jita book by 8 Oct 14:20 UTC. Sale to be recorded once the remaining fills are confirmed in the division 3 journal."
+      "status": "sold",
+      "note": "Job 674033884, installed by Kalek Tarn Mendol; delivered 7 Oct to division 3. Materials: contributions (Kalek). Sold at Jita 4-4 (sale 6)."
     },
     {
       "id": 7,
@@ -274,7 +274,17 @@
       "gross": 799000,
       "fees": 65916.56,
       "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
-      "note": "Corp sell order at 159,800 into division 3, placed by Jormon Praetor; filled 5 in one transaction (6888807035). Fees: broker 19,175.06 (2.40%; derived from the division 3 balance, journal entry to be confirmed) + sales tax 46,741.50 (5.85%). Lot: production 3."
+      "note": "Corp sell order 7439229092 at 159,800 into division 3, placed by Jormon Praetor; filled 5 in one transaction (6888807035). Fees: broker 19,175.06 (2.40%, journal 26123442186) + sales tax 46,741.50 (5.85%). Lot: production 3."
+    },
+    {
+      "id": 6,
+      "date": "2026-10-08",
+      "item": "Scourge Light Missile",
+      "qty": 80000,
+      "gross": 1079200,
+      "fees": 89032.73,
+      "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
+      "note": "Corp sell order 7439217605 at 13.49 into division 3, placed by Jormon Praetor; filled in 19 transactions between 7 Oct 21:25 and 8 Oct 07:25 UTC (first 6888737176, last 6888976545). Fees: broker 25,899.53 (2.40%, journal 26123389410) + sales tax 63,133.20 (5.85%). Lot: production 6."
     }
   ],
   "costs": [
