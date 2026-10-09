@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-08",
+    "updated": "2026-10-09",
     "phase": "consignment",
     "reserveTarget": 500000000,
     "shareUnit": 10000000,
@@ -221,8 +221,8 @@
       "runs": 400,
       "units": 40000,
       "location": "Nonni VI - Kaalakiota Corporation Factory",
-      "status": "in progress",
-      "note": "Job 674276369, installed by Kalek Tarn Mendol; ends 8 Oct 21:00 UTC. Materials: contributions (Kalek): contribution 12 plus minerals already held in division 4."
+      "status": "sold",
+      "note": "Job 674276369, installed by Kalek Tarn Mendol; delivered to division 3 (Completed Goods). Materials: contributions (Kalek): contribution 12 plus minerals already held in division 4. Hauled to Jita 4-4 by Kalek and contracted to Jormon Praetor; sold at Jita 4-4 (sale 7)."
     }
   ],
   "sales": [
@@ -285,6 +285,16 @@
       "fees": 89032.73,
       "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
       "note": "Corp sell order 7439217605 at 13.49 into division 3, placed by Jormon Praetor; filled in 19 transactions between 7 Oct 21:25 and 8 Oct 07:25 UTC (first 6888737176, last 6888976545). Fees: broker 25,899.53 (2.40%, journal 26123389410) + sales tax 63,133.20 (5.85%). Lot: production 6."
+    },
+    {
+      "id": 7,
+      "date": "2026-10-09",
+      "item": "Nova Heavy Missile",
+      "qty": 40000,
+      "gross": 2204000,
+      "fees": 110751,
+      "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
+      "note": "Sold by Jormon Praetor into a Jita buy order at 55.10 (immediate sale, no broker fee), corp account, division 3; one transaction (6889531848). Fees: sales tax 110,751 (5.02%, Accounting III). Lot: production 7."
     }
   ],
   "costs": [
@@ -505,6 +515,16 @@
       "amount": 1803259.96,
       "estimate": false,
       "note": "Division 3 to Kalek, journal 26117604406. Against loans 1–2 (2,353,020); 549,760.04 of those advances remains outstanding."
+    },
+    {
+      "id": 8,
+      "date": "2026-10-09",
+      "lender": "Kalek Tarn Mendol",
+      "description": "Repayment from the Nova sale (sale 7)",
+      "kind": "repayment",
+      "amount": 549760.04,
+      "estimate": false,
+      "note": "Division 3 to Kalek by Kal'dor Aubaris, journal 26127580925. Clears the remainder of loans 1–2 (2,353,020 in total, with loan 7)."
     }
   ],
   "distributions": []
