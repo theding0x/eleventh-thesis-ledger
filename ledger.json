@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-09",
+    "updated": "2026-10-13",
     "phase": "consignment",
     "reserveTarget": 500000000,
     "shareUnit": 10000000,
@@ -29,7 +29,7 @@
       "item": "Tritanium",
       "qty": 120000,
       "unit": 3.96,
-      "status": "held",
+      "status": "paid",
       "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (bought by Kalek Tarn Mendol on Kal'dor's behalf, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
@@ -39,7 +39,7 @@
       "item": "Pyerite",
       "qty": 22500,
       "unit": 17.33,
-      "status": "held",
+      "status": "paid",
       "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (bought by Kalek Tarn Mendol on Kal'dor's behalf, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
@@ -49,7 +49,7 @@
       "item": "Mexallon",
       "qty": 9375,
       "unit": 51.7,
-      "status": "held",
+      "status": "paid",
       "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (bought by Kalek Tarn Mendol on Kal'dor's behalf, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
@@ -59,7 +59,7 @@
       "item": "Isogen",
       "qty": 1875,
       "unit": 159,
-      "status": "held",
+      "status": "paid",
       "note": "Founder contribution: materials for 5 Bantams (job 673487371). Valued at the Jita 4-4 price paid on delivery day (bought by Kalek Tarn Mendol on Kal'dor's behalf, 30 Sep), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
@@ -69,7 +69,7 @@
       "item": "Tritanium",
       "qty": 496000,
       "unit": 3.92,
-      "status": "held",
+      "status": "paid",
       "note": "Founder contribution: materials for Scourge Heavy (400 runs, job 674033863) and Scourge Light (800 runs, job 674033884). Valued at the Jita 4-4 price paid on delivery day (5 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
@@ -79,7 +79,7 @@
       "item": "Pyerite",
       "qty": 64800,
       "unit": 16.36,
-      "status": "held",
+      "status": "paid",
       "note": "Founder contribution: materials for Scourge Heavy (400 runs, job 674033863) and Scourge Light (800 runs, job 674033884). Valued at the Jita 4-4 price paid on delivery day (5 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
@@ -89,7 +89,7 @@
       "item": "Nocxium",
       "qty": 1200,
       "unit": 677.2,
-      "status": "held",
+      "status": "paid",
       "note": "Founder contribution: materials for Scourge Heavy (400 runs, job 674033863) and Scourge Light (800 runs, job 674033884). Valued at the Jita 4-4 price paid on delivery day (5 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
@@ -99,7 +99,7 @@
       "item": "Mexallon",
       "qty": 800,
       "unit": 51.71,
-      "status": "held",
+      "status": "paid",
       "note": "Founder contribution: materials for Scourge Heavy (400 runs, job 674033863) and Scourge Light (800 runs, job 674033884). Valued at the Jita 4-4 price paid on delivery day (5 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
@@ -109,7 +109,7 @@
       "item": "Tritanium",
       "qty": 20000,
       "unit": 3.92,
-      "status": "held",
+      "status": "paid",
       "note": "Founder contribution: materials for Scourge Rocket (189 runs, job 673733851). Valued at the Jita 4-4 price paid on delivery day (2 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
@@ -119,7 +119,7 @@
       "item": "Pyerite",
       "qty": 20000,
       "unit": 16.8,
-      "status": "held",
+      "status": "paid",
       "note": "Founder contribution: materials for Scourge Rocket (189 runs, job 673733851). Valued at the Jita 4-4 price paid on delivery day (2 Oct), not a buy-price snapshot. Delivered to the factory directly, not by contract."
     },
     {
@@ -129,7 +129,7 @@
       "item": "Tritanium",
       "qty": 1200,
       "unit": 3.9,
-      "status": "held",
+      "status": "paid",
       "note": "Founder contribution: tops up division 4 for Nova Heavy Missile (400 runs, job 674276369). Bought by buy order at Jita 4-4 at 3.90; valued at the price paid on delivery day (6 Oct). Delivered to the factory directly, not by contract."
     },
     {
@@ -151,6 +151,96 @@
       "unit": 16.15,
       "status": "held",
       "note": "Founder contribution: Kal'dor's mined Scordite II-Grade, 15,999.9 m3 (106,666 units; 1,066 batches, 66-unit remainder left in division 4), reprocessed by Kal'dor at Nonni VI KC Factory straight into division 4. Quantity computed, not read from the window: 114 Pyerite per 100 x 54.5% yield (Reprocessing III, no Reprocessing Efficiency or Simple Ore Processing) x 95% after the 5% NPC station tax. Valued at the Jita 4-4 best buy on delivery day (7 Oct); mined, not bought. Delivered to the factory directly, not by contract."
+    },
+    {
+      "id": 15,
+      "date": "2026-10-12",
+      "member": "Kalek Tarn Mendol",
+      "item": "Fertilizer",
+      "qty": 2965,
+      "unit": 9912,
+      "status": "paid",
+      "note": "Founder PI, item-exchange contract 236953108 to corp at Nonni III (CFU). Valued at the Jita 4-4 daily low of 12 Oct (9,912) from market history, as a proxy for the buy price; no snapshot was taken on delivery day. Sold as sale 8."
+    },
+    {
+      "id": 16,
+      "date": "2026-10-12",
+      "member": "Kalek Tarn Mendol",
+      "item": "Synthetic Oil",
+      "qty": 1675,
+      "unit": 7127,
+      "status": "paid",
+      "note": "Founder PI, item-exchange contract 236953117 to corp at Nonni III (CFU). Valued at the Jita 4-4 daily low of 12 Oct (7,127) from market history, as a proxy for the buy price. Sold as sale 9."
+    },
+    {
+      "id": 17,
+      "date": "2026-10-05",
+      "member": "Kal'dor Aubaris",
+      "item": "Tritanium",
+      "qty": 12259,
+      "unit": 3.8,
+      "status": "paid",
+      "note": "Kal'dor's mined ore, reprocessed into division 4 at Nonni VI Kaalakiota Factory and not logged at the time; found by reconciling division 4 against the jobs' bills of materials on 13 Oct (ore remnants of Plagioclase, Pyroxeres and Veldspar remain). Delivered by 5 Oct (date approximate). Valued at Jita 4-4 best buy on 13 Oct, the reconciliation date; mined, not bought. Consumed by Nova Heavy Missile lot 7 (Tritanium, Pyerite) or Scourge Light lot 6 (Mexallon), both sold."
+    },
+    {
+      "id": 18,
+      "date": "2026-10-05",
+      "member": "Kal'dor Aubaris",
+      "item": "Pyerite",
+      "qty": 2114,
+      "unit": 15.61,
+      "status": "paid",
+      "note": "Kal'dor's mined ore, reprocessed into division 4 at Nonni VI Kaalakiota Factory and not logged at the time; found by reconciling division 4 against the jobs' bills of materials on 13 Oct (ore remnants of Plagioclase, Pyroxeres and Veldspar remain). Delivered by 5 Oct (date approximate). Valued at Jita 4-4 best buy on 13 Oct, the reconciliation date; mined, not bought. Consumed by Nova Heavy Missile lot 7 (Tritanium, Pyerite) or Scourge Light lot 6 (Mexallon), both sold."
+    },
+    {
+      "id": 19,
+      "date": "2026-10-05",
+      "member": "Kal'dor Aubaris",
+      "item": "Mexallon",
+      "qty": 800,
+      "unit": 51.22,
+      "status": "paid",
+      "note": "Kal'dor's mined ore, reprocessed into division 4 at Nonni VI Kaalakiota Factory and not logged at the time; found by reconciling division 4 against the jobs' bills of materials on 13 Oct (ore remnants of Plagioclase, Pyroxeres and Veldspar remain). Delivered by 5 Oct (date approximate). Valued at Jita 4-4 best buy on 13 Oct, the reconciliation date; mined, not bought. Consumed by Nova Heavy Missile lot 7 (Tritanium, Pyerite) or Scourge Light lot 6 (Mexallon), both sold."
+    },
+    {
+      "id": 20,
+      "date": "2026-10-05",
+      "member": "Kal'dor Aubaris",
+      "item": "Tritanium",
+      "qty": 27302,
+      "unit": 3.8,
+      "status": "held",
+      "note": "Kal'dor's mined ore, reprocessed into division 4 at Nonni VI Kaalakiota Factory and not logged at the time; found by reconciling division 4 against the jobs' bills of materials on 13 Oct (ore remnants of Plagioclase, Pyroxeres and Veldspar remain). Delivered by 5 Oct (date approximate). Valued at Jita 4-4 best buy on 13 Oct, the reconciliation date; mined, not bought. Still in division 4."
+    },
+    {
+      "id": 21,
+      "date": "2026-10-05",
+      "member": "Kal'dor Aubaris",
+      "item": "Pyerite",
+      "qty": 3667,
+      "unit": 15.61,
+      "status": "held",
+      "note": "Kal'dor's mined ore, reprocessed into division 4 at Nonni VI Kaalakiota Factory and not logged at the time; found by reconciling division 4 against the jobs' bills of materials on 13 Oct (ore remnants of Plagioclase, Pyroxeres and Veldspar remain). Delivered by 5 Oct (date approximate). Valued at Jita 4-4 best buy on 13 Oct, the reconciliation date; mined, not bought. Still in division 4."
+    },
+    {
+      "id": 22,
+      "date": "2026-10-05",
+      "member": "Kal'dor Aubaris",
+      "item": "Mexallon",
+      "qty": 9220,
+      "unit": 51.22,
+      "status": "held",
+      "note": "Kal'dor's mined ore, reprocessed into division 4 at Nonni VI Kaalakiota Factory and not logged at the time; found by reconciling division 4 against the jobs' bills of materials on 13 Oct (ore remnants of Plagioclase, Pyroxeres and Veldspar remain). Delivered by 5 Oct (date approximate). Valued at Jita 4-4 best buy on 13 Oct, the reconciliation date; mined, not bought. Still in division 4."
+    },
+    {
+      "id": 23,
+      "date": "2026-10-05",
+      "member": "Kal'dor Aubaris",
+      "item": "Isogen",
+      "qty": 187,
+      "unit": 160.0,
+      "status": "held",
+      "note": "Kal'dor's mined ore, reprocessed into division 4 at Nonni VI Kaalakiota Factory and not logged at the time; found by reconciling division 4 against the jobs' bills of materials on 13 Oct (ore remnants of Plagioclase, Pyroxeres and Veldspar remain). Delivered by 5 Oct (date approximate). Valued at Jita 4-4 best buy on 13 Oct, the reconciliation date; mined, not bought. Still in division 4."
     }
   ],
   "production": [
@@ -295,6 +385,26 @@
       "fees": 110751,
       "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
       "note": "Sold by Jormon Praetor into a Jita buy order at 55.10 (immediate sale, no broker fee), corp account, division 3; one transaction (6889531848). Fees: sales tax 110,751 (5.02%, Accounting III). Lot: production 7."
+    },
+    {
+      "id": 8,
+      "date": "2026-10-13",
+      "item": "Fertilizer",
+      "qty": 2965,
+      "gross": 31310400,
+      "fees": 2177973.22,
+      "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
+      "note": "Corp sell order into division 2, placed by Jormon Praetor 12 Oct, repriced 13 Oct to 10,560 (order 7442931256); filled 1,000 + 1,965 (transactions 6892988898, 6892988989). Fees: broker 581,161.26 + relist 281,775.16 + sales tax 1,315,036.80. Lot: contribution 15 (Kalek, consignment)."
+    },
+    {
+      "id": 9,
+      "date": "2026-10-13",
+      "item": "Synthetic Oil",
+      "qty": 1675,
+      "gross": 12560925,
+      "fees": 869626.25,
+      "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
+      "note": "Corp sell order into division 2, placed by Jormon Praetor 12 Oct at 7,599, repriced 13 Oct to 7,499 (order 7442931491); filled 1 + 1,000 + 674 (transactions 6892094303, 6892990731, 6893045305). Fees: broker 229,094.86 + relist 112,972.54 + sales tax 527,558.85. Lot: contribution 16 (Kalek, consignment)."
     }
   ],
   "costs": [
