@@ -29,4 +29,4 @@ Dates are `YYYY-MM-DD`. Amounts are ISK.
 
 ## Paying for production inputs
 
-Contributed goods that are sold as delivered (Fertilizer, for example) are paid 90% of their own net sale (constitution Art. IV.1). Contributed goods that go into production (minerals for missiles or hulls) are never sold themselves, so they are paid **90% of their delivery value when the product they went into sells**. The value added by production is surplus (Art. IV.3). Proposed as Art. IV.4 on 6 October 2026.
+Contributed goods that are sold as delivered (Fertilizer, for example) are paid 90% of their own net sale (constitution Art. IV.1). Contributed goods that go into production (minerals for missiles or hulls) are never sold themselves, so they are paid **90% of their delivery value when the product they went into sells**. The value added by production is surplus (Art. IV.3). Art. IV.4, adopted 13 October 2026 (amendment 1.2).

@@ -560,7 +560,7 @@
       "member": "Kal'dor Aubaris",
       "kind": "consignment",
       "amount": 1591647.52,
-      "note": "90% of delivery value of inputs whose products have sold (Art. IV.4 proposed, 'option a'): contributions 2-5 (Bantam minerals) and 17-19 (reprocessed minerals used in lots 6-7). Settled net from div 3: 318,329.50 paid out; 1,273,318.02 lent back (loan 9). Cash legs confirmed by wallet balances on 14 Oct (div 2 6,457,446.66; div 3 298,529.33; div 7 47,260,663.10); character-transfer journal IDs to add when ESI's journal cache refreshes."
+      "note": "90% of delivery value of inputs whose products have sold (Art. IV.4): contributions 2-5 (Bantam minerals) and 17-19 (reprocessed minerals used in lots 6-7). Settled net from div 3: 318,329.50 paid out; 1,273,318.02 lent back (loan 9). Cash legs confirmed by wallet balances on 14 Oct (div 2 6,457,446.66; div 3 298,529.33; div 7 47,260,663.10); character-transfer journal IDs to add when ESI's journal cache refreshes."
     },
     {
       "id": 3,
@@ -568,7 +568,7 @@
       "member": "Kalek Tarn Mendol",
       "kind": "consignment",
       "amount": 3849782.4,
-      "note": "90% of delivery value of inputs whose products have sold (Art. IV.4 proposed, 'option a'): contributions 6-12 (minerals for Scourge Heavy, Scourge Light, Scourge Rocket and Nova lot 7). Settled net from div 3: 769,956.48 paid out; 3,079,825.92 lent back (loan 10). Cash legs confirmed by wallet balances on 14 Oct (div 2 6,457,446.66; div 3 298,529.33; div 7 47,260,663.10); character-transfer journal IDs to add when ESI's journal cache refreshes."
+      "note": "90% of delivery value of inputs whose products have sold (Art. IV.4): contributions 6-12 (minerals for Scourge Heavy, Scourge Light, Scourge Rocket and Nova lot 7). Settled net from div 3: 769,956.48 paid out; 3,079,825.92 lent back (loan 10). Cash legs confirmed by wallet balances on 14 Oct (div 2 6,457,446.66; div 3 298,529.33; div 7 47,260,663.10); character-transfer journal IDs to add when ESI's journal cache refreshes."
     },
     {
       "id": 4,
