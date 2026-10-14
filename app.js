@@ -18,9 +18,9 @@
   }
 
   var BOOKS = {
-    contributions: { label: "Contributions", intro: "Every item-exchange contract to the corporation, valued at the Jita 4-4 buy price on the day of delivery (Art. III). Shares are earned at one per 10,000,000 ISK of value (Art. V).",
+    contributions: { label: "Contributions", intro: "Every item-exchange contract to the corporation, valued at the Jita 4-4 buy price on the day of delivery (Art. III). Shares are earned at one per 10,000,000 ISK of value (Art. V), recorded per contribution to two decimal places.",
       empty: "No contributions yet. The first member contract to the corp appears here as soon as it is accepted.",
-      cols: [["date", "Date", "date"], ["member", "Member"], ["item", "Item"], ["qty", "Qty", "int"], ["unit", "Unit value", "isk"], ["value", "Value", "isk"], ["status", "Status", "chip"], ["note", "Note"]], total: "value" },
+      cols: [["date", "Date", "date"], ["member", "Member"], ["item", "Item"], ["qty", "Qty", "int"], ["unit", "Unit value", "isk"], ["value", "Value", "isk"], ["shares", "Shares", "dec"], ["status", "Status", "chip"], ["note", "Note"]], total: "value" },
     production: { label: "Production", intro: "Corporation manufacturing jobs and what they will yield. Stock is valued when sold, in the Sales book.",
       empty: "No production recorded.",
       cols: [["date", "Started", "date"], ["product", "Product"], ["runs", "Runs", "int"], ["units", "Units", "int"], ["location", "Location"], ["status", "Status", "chip"], ["note", "Note"]] },
@@ -47,19 +47,23 @@
   // Derived fields are recomputed here so ledger.json only needs the inputs.
   function normalize() {
     ORDER.forEach(function (k) { if (!BOOKS[k].derived && !Array.isArray(D[k])) D[k] = []; });
-    D.contributions.forEach(function (r) { r.value = (Number(r.qty) || 0) * (Number(r.unit) || 0); });
+    D.contributions.forEach(function (r) {
+      r.value = (Number(r.qty) || 0) * (Number(r.unit) || 0);
+      // Shares are recorded per contribution, rounded to two decimal places (decided 13 Oct 2026).
+      r.shares = Math.round(r.value / D.meta.shareUnit * 100 + 1e-9) / 100;
+    });
     D.sales.forEach(function (r) { r.net = (Number(r.gross) || 0) - (Number(r.fees) || 0); });
     var sp = D.meta.split;
     D.distributions.forEach(function (r) {
       var s = Number(r.surplus) || 0;
       r.reserve = s * sp.reserve; r.reinvest = s * sp.reinvest; r.dividend = s * sp.dividend;
       // Earned shares at the distribution date, from contributions delivered on or before it.
-      r.shares = sum(D.contributions.filter(function (c) { return c.date <= r.date; }), function (c) { return c.value; }) / D.meta.shareUnit;
+      r.shares = sum(D.contributions.filter(function (c) { return c.date <= r.date; }), function (c) { return c.shares; });
       r.perShare = r.shares > 0 ? r.dividend / r.shares : 0;
     });
   }
 
-  function earnedShares() { return sum(D.contributions, function (r) { return r.value; }) / D.meta.shareUnit; }
+  function earnedShares() { return sum(D.contributions, function (r) { return r.shares; }); }
   function figures() {
     var contributed = sum(D.contributions, function (r) { return r.value; });
     var consign = sum(D.payouts.filter(function (p) { return p.kind === "consignment"; }), function (r) { return r.amount; });
@@ -71,7 +75,7 @@
     // Loans already spent on costs are netted out through the surplus (Art. IV.2, VII.4).
     var undistributed = surplus - sum(D.distributions, function (r) { return Number(r.surplus) || 0; });
     var liquidity = reserve + adv + undistributed;
-    return { contributed: contributed, shares: contributed / D.meta.shareUnit, surplus: surplus, reserve: reserve, loan: adv - rep, liquidity: liquidity,
+    return { contributed: contributed, shares: earnedShares(), surplus: surplus, reserve: reserve, loan: adv - rep, liquidity: liquidity,
       est: D.loans.some(function (l) { return l.estimate; }), sales: D.sales.length };
   }
 
@@ -105,14 +109,14 @@
 
   function renderShares() {
     var by = {};
-    D.contributions.forEach(function (r) { var m = r.member || "Unknown"; by[m] = by[m] || { value: 0, div: 0 }; by[m].value += Number(r.value) || 0; });
-    D.payouts.forEach(function (p) { if (p.kind === "dividend") { var m = p.member || "Unknown"; by[m] = by[m] || { value: 0, div: 0 }; by[m].div += Number(p.amount) || 0; } });
+    D.contributions.forEach(function (r) { var m = r.member || "Unknown"; by[m] = by[m] || { value: 0, shares: 0, div: 0 }; by[m].value += Number(r.value) || 0; by[m].shares += r.shares; });
+    D.payouts.forEach(function (p) { if (p.kind === "dividend") { var m = p.member || "Unknown"; by[m] = by[m] || { value: 0, shares: 0, div: 0 }; by[m].div += Number(p.amount) || 0; } });
     var names = Object.keys(by).sort(function (a, b) { return by[b].value - by[a].value; });
     if (!names.length) return '<div class="empty">No shares earned yet. Shares appear here as contributions are recorded.</div>';
     var total = earnedShares();
     var out = '<div class="tablewrap"><table><thead><tr><th>Member</th><th class="num">Contributed value</th><th class="num">Earned shares</th><th class="num">Whole shares</th><th class="num">Share of pool</th><th class="num">Dividends received</th></tr></thead><tbody>';
     names.forEach(function (n) {
-      var s = by[n].value / D.meta.shareUnit;
+      var s = by[n].shares;
       out += "<tr><td>" + esc(n) + '</td><td class="num">' + num(by[n].value) + '</td><td class="num">' + num(s, 2) + '</td><td class="num">' + num(Math.floor(s)) + '</td><td class="num">' + (total > 0 ? num(s / total * 100, 1) + "%" : "–") + '</td><td class="num">' + num(by[n].div) + "</td></tr>";
     });
     return out + "</tbody></table></div>";

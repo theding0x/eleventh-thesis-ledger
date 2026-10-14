@@ -13,7 +13,7 @@ The page is published with GitHub Pages from this repository. The data lives in 
 
 ## Adding an entry
 
-Append an object to the right array in `ledger.json`, set `meta.updated` to today's date, and commit with a message that names the entry (for example `Contribution: Pilot Name, 120,000 Tritanium`). Give each entry the next `id` in its array. Derived fields (`value`, `net`, and the distribution split) are recalculated by the page, so only the inputs are needed.
+Append an object to the right array in `ledger.json`, set `meta.updated` to today's date, and commit with a message that names the entry (for example `Contribution: Pilot Name, 120,000 Tritanium`). Give each entry the next `id` in its array. Derived fields (`value`, `shares`, `net`, and the distribution split) are recalculated by the page, so only the inputs are needed. Shares are recorded per contribution at one per 10,000,000 ISK of value, rounded to two decimal places (decided 13 October 2026); totals and dividends use those rounded figures.
 
 | Book | Fields |
 |---|---|
