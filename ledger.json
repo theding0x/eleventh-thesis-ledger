@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-13",
+    "updated": "2026-10-14",
     "phase": "consignment",
     "reserveTarget": 500000000,
     "shareUnit": 10000000,
@@ -553,6 +553,30 @@
       "kind": "consignment",
       "amount": 16893045.97,
       "note": "90% of net sale 18,770,051.08 for contribution 1 (1,880 Fertilizer), Art. IV.1. Settled net: 3,378,609.19 paid out; the rest lent back (loan 3)."
+    },
+    {
+      "id": 2,
+      "date": "2026-10-14",
+      "member": "Kal'dor Aubaris",
+      "kind": "consignment",
+      "amount": 1591647.52,
+      "note": "90% of delivery value of inputs whose products have sold (Art. IV.4 proposed, 'option a'): contributions 2-5 (Bantam minerals) and 17-19 (reprocessed minerals used in lots 6-7). Settled net from div 3: 318,329.50 paid out; 1,273,318.02 lent back (loan 9). Cash legs confirmed by wallet balances on 14 Oct (div 2 6,457,446.66; div 3 298,529.33; div 7 47,260,663.10); character-transfer journal IDs to add when ESI's journal cache refreshes."
+    },
+    {
+      "id": 3,
+      "date": "2026-10-14",
+      "member": "Kalek Tarn Mendol",
+      "kind": "consignment",
+      "amount": 3849782.4,
+      "note": "90% of delivery value of inputs whose products have sold (Art. IV.4 proposed, 'option a'): contributions 6-12 (minerals for Scourge Heavy, Scourge Light, Scourge Rocket and Nova lot 7). Settled net from div 3: 769,956.48 paid out; 3,079,825.92 lent back (loan 10). Cash legs confirmed by wallet balances on 14 Oct (div 2 6,457,446.66; div 3 298,529.33; div 7 47,260,663.10); character-transfer journal IDs to add when ESI's journal cache refreshes."
+    },
+    {
+      "id": 4,
+      "date": "2026-10-14",
+      "member": "Kalek Tarn Mendol",
+      "kind": "consignment",
+      "amount": 36741352.98,
+      "note": "90% of net sale, Art. IV.1: contributions 15-16 (2,965 Fertilizer, net sale 29,132,426.78; 1,675 Synthetic Oil, net sale 11,691,298.75). Settled net from div 2: 7,348,270.60 paid out; 29,393,082.38 lent back (loan 11). Cash legs confirmed by wallet balances on 14 Oct (div 2 6,457,446.66; div 3 298,529.33; div 7 47,260,663.10); character-transfer journal IDs to add when ESI's journal cache refreshes."
     }
   ],
   "loans": [
@@ -635,6 +659,36 @@
       "amount": 549760.04,
       "estimate": false,
       "note": "Division 3 to Kalek by Kal'dor Aubaris, journal 26127580925. Clears the remainder of loans 1–2 (2,353,020 in total, with loan 7)."
+    },
+    {
+      "id": 9,
+      "date": "2026-10-14",
+      "lender": "Kal'dor Aubaris",
+      "description": "Consignment payout lent back (80%)",
+      "kind": "advance",
+      "amount": 1273318.02,
+      "estimate": false,
+      "note": "Payout 2. Div 3 to Founder Loan wallet (division 7), journal 26147660692. Art. VII: interest-free, no shares, no dividends, repaid only from the reserve."
+    },
+    {
+      "id": 10,
+      "date": "2026-10-14",
+      "lender": "Kalek Tarn Mendol",
+      "description": "Consignment payout lent back (80%)",
+      "kind": "advance",
+      "amount": 3079825.92,
+      "estimate": false,
+      "note": "Payout 3. Div 3 to Founder Loan wallet (division 7), journal 26147663691. Art. VII: interest-free, no shares, no dividends, repaid only from the reserve."
+    },
+    {
+      "id": 11,
+      "date": "2026-10-14",
+      "lender": "Kalek Tarn Mendol",
+      "description": "Consignment payout lent back (80%)",
+      "kind": "advance",
+      "amount": 29393082.38,
+      "estimate": false,
+      "note": "Payout 4. Div 2 to Founder Loan wallet (division 7), journal 26147667259. Art. VII: interest-free, no shares, no dividends, repaid only from the reserve."
     }
   ],
   "distributions": []
