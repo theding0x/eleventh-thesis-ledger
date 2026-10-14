@@ -543,6 +543,30 @@
       "description": "Nova Heavy Missile, 400 runs (job 674276369)",
       "amount": 122100,
       "note": "Manufacturing fee 119,012 + facility tax 3,088, division 3. Funded by a 150,000 transfer from division 1 to division 3 by Kal'dor Aubaris (journal 26119471358). Production lot 7."
+    },
+    {
+      "id": 18,
+      "date": "2026-10-05",
+      "category": "blueprints",
+      "description": "Scourge Heavy Missile Blueprint (BPO)",
+      "amount": 750000,
+      "note": "Bought at Jita 4-4 by Kalek; funded by founder loan 5. Booked 14 Oct: the loan was recorded on 5 Oct without its cost entry, which overstated surplus and payment liquidity by 750,000."
+    },
+    {
+      "id": 19,
+      "date": "2026-10-05",
+      "category": "blueprints",
+      "description": "Scourge Light Missile Blueprint (BPO)",
+      "amount": 150000,
+      "note": "Bought at Jita 4-4 by Kalek; funded by founder loan 6. Booked 14 Oct: the loan was recorded on 5 Oct without its cost entry, which overstated surplus and payment liquidity by 150,000."
+    },
+    {
+      "id": 20,
+      "date": "2026-10-14",
+      "category": "blueprints",
+      "description": "Nova Heavy Assault Missile Blueprint (BPO, ME0/TE0)",
+      "amount": 600000,
+      "note": "Bought from the NPC seller at Nonni I – Caldari Navy Assembly Plant by Kalek; funded by founder loan 12. In hangar division 4 (Production), Nonni VI Kaalakiota Factory. Same inputs as Nova Heavy Missile; chosen in the 14 Oct product-line review."
     }
   ],
   "payouts": [
@@ -689,6 +713,16 @@
       "amount": 29393082.38,
       "estimate": false,
       "note": "Payout 4. Div 2 to Founder Loan wallet (division 7), journal 26147667259. Art. VII: interest-free, no shares, no dividends, repaid only from the reserve."
+    },
+    {
+      "id": 12,
+      "date": "2026-10-14",
+      "lender": "Kalek Tarn Mendol",
+      "description": "Nova Heavy Assault Missile Blueprint",
+      "kind": "advance",
+      "amount": 600000,
+      "estimate": false,
+      "note": "Blueprint lent in kind: item-exchange contract 237025105 to the corp at Nonni VI, accepted 14 Oct by Kal'dor Aubaris. Founder capital (Art. VII), like loans 1, 5 and 6: interest-free, no shares, no dividends, repaid only from the reserve. Cost 20."
     }
   ],
   "distributions": []
