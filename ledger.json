@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-14",
+    "updated": "2026-10-23",
     "phase": "consignment",
     "reserveTarget": 500000000,
     "shareUnit": 10000000,
@@ -241,6 +241,16 @@
       "unit": 160.0,
       "status": "held",
       "note": "Kal'dor's mined ore, reprocessed into division 4 at Nonni VI Kaalakiota Factory and not logged at the time; found by reconciling division 4 against the jobs' bills of materials on 13 Oct (ore remnants of Plagioclase, Pyroxeres and Veldspar remain). Delivered by 5 Oct (date approximate). Valued at Jita 4-4 best buy on 13 Oct, the reconciliation date; mined, not bought. Still in division 4."
+    },
+    {
+      "id": 24,
+      "date": "2026-10-23",
+      "member": "Kalek Tarn Mendol",
+      "item": "Fertilizer",
+      "qty": 6020,
+      "unit": 10650,
+      "status": "sold",
+      "note": "Founder PI (Okagaiken V), item-exchange contract 237342234 to corp at Nonni III (CFU), accepted 23 Oct 02:08 UTC, into division 2. Valued at Jita 4-4 best buy (10,650) from a snapshot taken about 20 minutes before delivery. Hauled to Jita by Kalek and handed to Jormon Praetor by personal item-exchange contract (no corp office at Jita; contract ID to add). Sold as sale 10; consignment payout (Art. IV.1, option C) pending."
     }
   ],
   "production": [
@@ -405,6 +415,16 @@
       "fees": 869626.25,
       "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
       "note": "Corp sell order into division 2, placed by Jormon Praetor 12 Oct at 7,599, repriced 13 Oct to 7,499 (order 7442931491); filled 1 + 1,000 + 674 (transactions 6892094303, 6892990731, 6893045305). Fees: broker 229,094.86 + relist 112,972.54 + sales tax 527,558.85. Lot: contribution 16 (Kalek, consignment)."
+    },
+    {
+      "id": 10,
+      "date": "2026-10-23",
+      "item": "Fertilizer",
+      "qty": 6020,
+      "gross": 68507600,
+      "fees": 4110375.3,
+      "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
+      "note": "Corp sell order into division 2, placed by Jormon Praetor 23 Oct at 11,380 (order 7451899403), no repricing; filled in one transaction (6900001697). Fees: broker 1,233,056.10 (journal 26181969848) + sales tax 2,877,319.20 (journal 26182403885). Net 64,397,224.70. Lot: contribution 24 (Kalek, consignment)."
     }
   ],
   "costs": [
