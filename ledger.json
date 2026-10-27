@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-23",
+    "updated": "2026-10-27",
     "phase": "consignment",
     "reserveTarget": 500000000,
     "shareUnit": 10000000,
@@ -323,6 +323,16 @@
       "location": "Nonni VI - Kaalakiota Corporation Factory",
       "status": "sold",
       "note": "Job 674276369, installed by Kalek Tarn Mendol; delivered to division 3 (Completed Goods). Materials: contributions (Kalek): contribution 12 plus minerals already held in division 4. Hauled to Jita 4-4 by Kalek and contracted to Jormon Praetor; sold at Jita 4-4 (sale 7)."
+    },
+    {
+      "id": 8,
+      "date": "2026-10-15",
+      "product": "Nova Heavy Assault Missile",
+      "runs": 326,
+      "units": 32600,
+      "location": "Nonni VI - Kaalakiota Corporation Factory",
+      "status": "delivered",
+      "note": "Job 675481400, installed by Kalek Tarn Mendol 15 Oct; finished 17 Oct, delivered 18 Oct to division 3 (Completed Goods). First run of the Nova HAM blueprint (cost 20, loan 12). Not logged at the time; found on 27 Oct by reconciling corp industry jobs and assets against the ledger. Bill of materials 351 Tritanium, 119 Pyerite and 1 Nocxium per run (ME0), confirmed by the change in division 4: Tritanium 114,426 from contribution 20 (all 27,302) and contribution 13 (87,124 of 87,203; 79 remain); Pyerite 38,794 from contribution 21 (all 3,667) and contribution 14 (35,127 of 62,919; 27,792 remain); Nocxium 326 bought by the corp (cost 21). Those contributions are paid under Art. IV.4 when this lot sells. Job fees: cost 22. Unsold: 32,600 units in division 3 at Nonni VI as of 27 Oct, no market order."
     }
   ],
   "sales": [
@@ -587,6 +597,22 @@
       "description": "Nova Heavy Assault Missile Blueprint (BPO, ME0/TE0)",
       "amount": 600000,
       "note": "Bought from the NPC seller at Nonni I – Caldari Navy Assembly Plant by Kalek; funded by founder loan 12. In hangar division 4 (Production), Nonni VI Kaalakiota Factory. Same inputs as Nova Heavy Missile; chosen in the 14 Oct product-line review."
+    },
+    {
+      "id": 21,
+      "date": "2026-10-15",
+      "category": "materials",
+      "description": "Nocxium x326 for Nova HAM (production 8)",
+      "amount": 218713.4,
+      "note": "Bought by Kalek Tarn Mendol at Jita 4-4 at 670.90 on the corp account, division 3 (transaction 6894464466, journal 26153680864, market escrow). Corp funds, not a founder contribution: no shares. No broker fee appears in the division 3 journal."
+    },
+    {
+      "id": 22,
+      "date": "2026-10-15",
+      "category": "job fees",
+      "description": "Nova Heavy Assault Missile, 326 runs (job 675481400)",
+      "amount": 100062,
+      "note": "Manufacturing fee 97,502 (journal 26153713474) + facility tax 2,560 (journal 26153713475), division 3. Funded by a 100,000 transfer from division 1 to division 3 by Kal'dor Aubaris (journal 26153707677). Production lot 8."
     }
   ],
   "payouts": [
