@@ -251,6 +251,26 @@
       "unit": 10650,
       "status": "sold",
       "note": "Founder PI (Okagaiken V), item-exchange contract 237342234 to corp at Nonni III (CFU), accepted 23 Oct 02:08 UTC, into division 2. Valued at Jita 4-4 best buy (10,650) from a snapshot taken about 20 minutes before delivery. Hauled to Jita by Kalek and handed to Jormon Praetor by personal item-exchange contract (no corp office at Jita; contract ID to add). Sold as sale 10; consignment payout (Art. IV.1, option C) pending."
+    },
+    {
+      "id": 25,
+      "date": "2026-10-16",
+      "member": "Kal'dor Aubaris",
+      "item": "Tritanium",
+      "qty": 133461,
+      "unit": 3.9,
+      "status": "held",
+      "note": "Founder contribution: Kal'dor's mined Scordite, reprocessed, delivered by item-exchange contract 237096737 (\"Contribution – Scordite reprocessed (prod input)\") to the corp at Nonni VI Kaalakiota Factory, issued 16 Oct 02:18 UTC by Kal'dor and accepted for the corp by Kalek Tarn Mendol; contract carried 133,461 Tritanium and 96,572 Pyerite, now in division 4. Not logged at the time; found on 27 Oct by reconciling corp contracts and assets. Valued at the Jita 4-4 daily low of 16 Oct (3.90) from market history, as a proxy for the buy price; no snapshot was taken on delivery day. Mined, not bought. Production input: paid under Art. IV.4 when the product it goes into sells."
+    },
+    {
+      "id": 26,
+      "date": "2026-10-16",
+      "member": "Kal'dor Aubaris",
+      "item": "Pyerite",
+      "qty": 96572,
+      "unit": 16.97,
+      "status": "held",
+      "note": "Founder contribution: Kal'dor's mined Scordite, reprocessed, delivered by item-exchange contract 237096737 (\"Contribution – Scordite reprocessed (prod input)\") to the corp at Nonni VI Kaalakiota Factory, issued 16 Oct 02:18 UTC by Kal'dor and accepted for the corp by Kalek Tarn Mendol; contract carried 133,461 Tritanium and 96,572 Pyerite, now in division 4. Not logged at the time; found on 27 Oct by reconciling corp contracts and assets. Valued at the Jita 4-4 daily low of 16 Oct (16.97) from market history, as a proxy for the buy price; no snapshot was taken on delivery day. Mined, not bought. Production input: paid under Art. IV.4 when the product it goes into sells."
     }
   ],
   "production": [
