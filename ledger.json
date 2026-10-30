@@ -249,8 +249,8 @@
       "item": "Fertilizer",
       "qty": 6020,
       "unit": 10650,
-      "status": "sold",
-      "note": "Founder PI (Okagaiken V), item-exchange contract 237342234 to corp at Nonni III (CFU), accepted 23 Oct 02:08 UTC, into division 2. Valued at Jita 4-4 best buy (10,650) from a snapshot taken about 20 minutes before delivery. Hauled to Jita by Kalek and handed to Jormon Praetor by personal item-exchange contract (no corp office at Jita; personal contracts are outside every ESI login preset, so the ID is not recorded). Sold as sale 10; consignment payout (Art. IV.1, option C) pending."
+      "status": "paid",
+      "note": "Founder PI (Okagaiken V), item-exchange contract 237342234 to corp at Nonni III (CFU), accepted 23 Oct 02:08 UTC, into division 2. Valued at Jita 4-4 best buy (10,650) from a snapshot taken about 20 minutes before delivery. Hauled to Jita by Kalek and handed to Jormon Praetor by personal item-exchange contract (no corp office at Jita; personal contracts are outside every ESI login preset, so the ID is not recorded). Sold as sale 10; consignment payout 5 settled 30 Oct (Art. IV.1, option C)."
     },
     {
       "id": 25,
@@ -717,6 +717,14 @@
       "kind": "consignment",
       "amount": 36741352.98,
       "note": "90% of net sale, Art. IV.1: contributions 15-16 (2,965 Fertilizer, net sale 29,132,426.78; 1,675 Synthetic Oil, net sale 11,691,298.75). Settled net from div 2: 7,348,270.60 paid out; 29,393,082.38 lent back (loan 11). Cash legs confirmed by wallet balances on 14 Oct (div 2 6,457,446.66; div 3 298,529.33; div 7 47,260,663.10); payout transfer to Kalek journal 26147665973 (div 2); lend-back journal 26147667259."
+    },
+    {
+      "id": 5,
+      "date": "2026-10-30",
+      "member": "Kalek Tarn Mendol",
+      "kind": "consignment",
+      "amount": 57957502.23,
+      "note": "90% of net sale, Art. IV.1: contribution 24 (6,020 Fertilizer, net sale 64,397,224.70; sale 10). Settled net from div 2 under option C: 11,591,500.45 paid out (journal 26212745709); 46,366,001.78 lent back (loan 13, journal 26212743608). Cash legs confirmed by wallet balances on 30 Oct (div 2 11,740,132.85; div 7 93,626,664.88)."
     }
   ],
   "loans": [
@@ -839,6 +847,16 @@
       "amount": 600000,
       "estimate": false,
       "note": "Blueprint lent in kind: item-exchange contract 237025105 to the corp at Nonni VI, accepted 14 Oct by Kal'dor Aubaris. Founder capital (Art. VII), like loans 1, 5 and 6: interest-free, no shares, no dividends, repaid only from the reserve. Cost 20."
+    },
+    {
+      "id": 13,
+      "date": "2026-10-30",
+      "lender": "Kalek Tarn Mendol",
+      "description": "Consignment payout lent back (80%)",
+      "kind": "advance",
+      "amount": 46366001.78,
+      "estimate": false,
+      "note": "Payout 5. Div 2 to Founder Loan wallet (division 7), journal 26212743608. Art. VII: interest-free, no shares, no dividends, repaid only from the reserve."
     }
   ],
   "distributions": []
