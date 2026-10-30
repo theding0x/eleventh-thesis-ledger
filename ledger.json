@@ -683,6 +683,22 @@
       "description": "Nova Heavy Assault Missile, 326 runs (job 675481400)",
       "amount": 100062,
       "note": "Manufacturing fee 97,502 (journal 26153713474) + facility tax 2,560 (journal 26153713475), division 3. Funded by a 100,000 transfer from division 1 to division 3 by Kal'dor Aubaris (journal 26153707677). Production lot 8."
+    },
+    {
+      "id": 23,
+      "date": "2026-10-30",
+      "category": "office",
+      "description": "Office rental, Nonni VI Kaalakiota Corporation Factory (month 2)",
+      "amount": 10000,
+      "note": "Division 1 journal 26212564650. Monthly renewal of cost 9."
+    },
+    {
+      "id": 24,
+      "date": "2026-10-30",
+      "category": "office",
+      "description": "Office rental, Nonni VI CBD Corporation (month 2)",
+      "amount": 10000,
+      "note": "Division 1 journal 26212734386. Renewal of cost 8, paid a day late: corp assets showed the office impounded on 30 Oct. It holds the corp project deliveries hangar with 198 Industrial Explosives."
     }
   ],
   "payouts": [
