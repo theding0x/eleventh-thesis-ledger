@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "phase": "consignment",
     "reserveTarget": 500000000,
     "shareUnit": 10000000,
@@ -250,7 +250,7 @@
       "qty": 6020,
       "unit": 10650,
       "status": "sold",
-      "note": "Founder PI (Okagaiken V), item-exchange contract 237342234 to corp at Nonni III (CFU), accepted 23 Oct 02:08 UTC, into division 2. Valued at Jita 4-4 best buy (10,650) from a snapshot taken about 20 minutes before delivery. Hauled to Jita by Kalek and handed to Jormon Praetor by personal item-exchange contract (no corp office at Jita; contract ID to add). Sold as sale 10; consignment payout (Art. IV.1, option C) pending."
+      "note": "Founder PI (Okagaiken V), item-exchange contract 237342234 to corp at Nonni III (CFU), accepted 23 Oct 02:08 UTC, into division 2. Valued at Jita 4-4 best buy (10,650) from a snapshot taken about 20 minutes before delivery. Hauled to Jita by Kalek and handed to Jormon Praetor by personal item-exchange contract (no corp office at Jita; personal contracts are outside every ESI login preset, so the ID is not recorded). Sold as sale 10; consignment payout (Art. IV.1, option C) pending."
     },
     {
       "id": 25,
@@ -271,6 +271,46 @@
       "unit": 16.97,
       "status": "held",
       "note": "Founder contribution: Kal'dor's mined Scordite, reprocessed, delivered by item-exchange contract 237096737 (\"Contribution – Scordite reprocessed (prod input)\") to the corp at Nonni VI Kaalakiota Factory, issued 16 Oct 02:18 UTC by Kal'dor and accepted for the corp by Kalek Tarn Mendol; contract carried 133,461 Tritanium and 96,572 Pyerite, now in division 4. Not logged at the time; found on 27 Oct by reconciling corp contracts and assets. Valued at the Jita 4-4 daily low of 16 Oct (16.97) from market history, as a proxy for the buy price; no snapshot was taken on delivery day. Mined, not bought. Production input: paid under Art. IV.4 when the product it goes into sells."
+    },
+    {
+      "id": 27,
+      "date": "2026-10-30",
+      "member": "Kal'dor Aubaris",
+      "item": "Scordite II-Grade",
+      "qty": 34350,
+      "unit": 18.05,
+      "status": "held",
+      "note": "Founder contribution: Kal'dor's mined ore, delivered as ore (not reprocessed), item-exchange contract 237625999 (\"ELEVE c27-28: Kal'dor, Veldspar II + Scordite II\") to the corp at Nonni VI Kaalakiota Factory, accepted 30 Oct 19:41 UTC into division 2. 34,350 Scordite II-Grade and 108,571 Veldspar II-Grade in the contract. Valued at the Jita 4-4 best buy (18.05) from a snapshot taken about 20 minutes after delivery (30 Oct, 20:05 UTC). Mined, not bought. Production input: reprocessed by the corp (production 9) and paid under Art. IV.4 when the product its minerals go into sells."
+    },
+    {
+      "id": 28,
+      "date": "2026-10-30",
+      "member": "Kal'dor Aubaris",
+      "item": "Veldspar II-Grade",
+      "qty": 108571,
+      "unit": 10.09,
+      "status": "held",
+      "note": "Founder contribution: Kal'dor's mined ore, delivered as ore (not reprocessed), item-exchange contract 237625999 (\"ELEVE c27-28: Kal'dor, Veldspar II + Scordite II\") to the corp at Nonni VI Kaalakiota Factory, accepted 30 Oct 19:41 UTC into division 2. 34,350 Scordite II-Grade and 108,571 Veldspar II-Grade in the contract. Valued at the Jita 4-4 best buy (10.09) from a snapshot taken about 20 minutes after delivery (30 Oct, 20:05 UTC). Mined, not bought. Production input: reprocessed by the corp (production 9) and paid under Art. IV.4 when the product its minerals go into sells."
+    },
+    {
+      "id": 29,
+      "date": "2026-10-30",
+      "member": "Kalek Tarn Mendol",
+      "item": "Fertilizer",
+      "qty": 3945,
+      "unit": 11160,
+      "status": "held",
+      "note": "Founder PI, item-exchange contract 237632744 to the corp at Nonni VI Kaalakiota Factory, accepted 30 Oct 19:47 UTC into division 2. The contract title reads \"c27-28\"; the ledger numbers it 29-30 because Kal'dor's ore contract (contributions 27-28) was accepted six minutes earlier. Valued at the Jita 4-4 best buy (11,160) from a snapshot taken about 20 minutes after delivery (30 Oct, 20:05 UTC). Taken from division 2 by Kalek, hauled to Jita and handed to Jormon Praetor by personal item-exchange contract, accepted 30 Oct (personal contracts are outside every ESI login preset, so the ID is not recorded). To be sold by Jormon on the corp account into wallet division 2; consignment payout under Art. IV.1, option C."
+    },
+    {
+      "id": 30,
+      "date": "2026-10-30",
+      "member": "Kalek Tarn Mendol",
+      "item": "Synthetic Oil",
+      "qty": 2125,
+      "unit": 7187,
+      "status": "held",
+      "note": "Founder PI, item-exchange contract 237632744 to the corp at Nonni VI Kaalakiota Factory, accepted 30 Oct 19:47 UTC into division 2. The contract title reads \"c27-28\"; the ledger numbers it 29-30 because Kal'dor's ore contract (contributions 27-28) was accepted six minutes earlier. Valued at the Jita 4-4 best buy (7,187) from a snapshot taken about 20 minutes after delivery (30 Oct, 20:05 UTC). Taken from division 2 by Kalek, hauled to Jita and handed to Jormon Praetor by personal item-exchange contract, accepted 30 Oct (personal contracts are outside every ESI login preset, so the ID is not recorded). To be sold by Jormon on the corp account into wallet division 2; consignment payout under Art. IV.1, option C."
     }
   ],
   "production": [
@@ -353,6 +393,16 @@
       "location": "Nonni VI - Kaalakiota Corporation Factory",
       "status": "delivered",
       "note": "Job 675481400, installed by Kalek Tarn Mendol 15 Oct; finished 17 Oct, delivered 18 Oct to division 3 (Completed Goods). First run of the Nova HAM blueprint (cost 20, loan 12). Not logged at the time; found on 27 Oct by reconciling corp industry jobs and assets against the ledger. Bill of materials 351 Tritanium, 119 Pyerite and 1 Nocxium per run (ME0), confirmed by the change in division 4: Tritanium 114,426 from contribution 20 (all 27,302) and contribution 13 (87,124 of 87,203; 79 remain); Pyerite 38,794 from contribution 21 (all 3,667) and contribution 14 (35,127 of 62,919; 27,792 remain); Nocxium 326 bought by the corp (cost 21). Those contributions are paid under Art. IV.4 when this lot sells. Job fees: cost 22. Unsold: 32,600 units in division 3 at Nonni VI as of 27 Oct, no market order."
+    },
+    {
+      "id": 9,
+      "date": "2026-10-30",
+      "product": "Reprocessing: Veldspar II-Grade and Scordite II-Grade",
+      "runs": 1428,
+      "units": 368198,
+      "location": "Nonni VI - Kaalakiota Corporation Factory",
+      "status": "delivered",
+      "note": "Reprocessing of contributions 27-28 in the corp hangar, 30 Oct: 1,085 batches of Veldspar II-Grade (108,500 units) and 343 batches of Scordite II-Grade (34,300 units); remnants of 71 Veldspar II-Grade and 50 Scordite II-Grade stay in division 2. Output into division 4 (Production), measured from division 4 before (27 Oct) and after (30 Oct): Tritanium +341,974, Pyerite +26,224. Yield 67.07% of the base 420 Tritanium per Veldspar II batch and 158 Tritanium + 114 Pyerite per Scordite II batch, which matches Kalek's skills (Reprocessing V, Reprocessing Efficiency IV, Simple Ore Processing IV) with no reprocessing tax taken. Not a manufacturing job: no ISK cost. Any gain or loss against the ore's delivery value falls to the collective (Art. IV.3-IV.4). The minerals join division 4 stock; whose inputs a later job consumes is allocated first in, first out."
     }
   ],
   "sales": [
