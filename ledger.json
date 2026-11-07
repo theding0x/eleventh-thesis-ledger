@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-03",
+    "updated": "2026-11-07",
     "phase": "consignment",
     "reserveTarget": 500000000,
     "shareUnit": 10000000,
@@ -935,6 +935,16 @@
       "amount": 43889312.67,
       "estimate": false,
       "note": "Payout 6. Div 2 to Founder Loan wallet (division 7), journal 26226765264. Art. VII: interest-free, no shares, no dividends, repaid only from the reserve."
+    },
+    {
+      "id": 15,
+      "date": "2026-11-07",
+      "lender": "Kal'dor Aubaris",
+      "description": "PLEX sale proceeds (77 PLEX)",
+      "kind": "advance",
+      "amount": 354745160,
+      "estimate": false,
+      "note": "Founder capital to bring payment liquidity to the 500M instant-payment threshold (Art. IV.2, VII.6). Kal'dor's own PLEX: 77 PLEX moved to Jormon Praetor by personal item-exchange contract (description \"L15 founder loan\"; personal contracts are outside every ESI login preset, so the ID is not recorded) for his lower sales tax (3.375% vs 7.5%). Jormon sold 77 into buy orders on the global PLEX market (GPMR-01) at 4,768,000: gross 367,136,000, sales tax 12,390,840, net 354,745,160. Deposited by Jormon to division 1 (journal 26243083398), moved by Kal'dor to the Founder Loan wallet, division 7 (journal 26243115590). Art. VII: interest-free, no shares, no dividends, repaid only from the reserve."
     }
   ],
   "distributions": [
@@ -942,7 +952,7 @@
       "id": 1,
       "date": "2026-10-31",
       "surplus": 13962911.93,
-      "note": "First monthly distribution, 29 Sep - 31 Oct 2026 (statement in Claude outputs/eleventh-thesis-statement-2026-10.md). Surplus = net sales 192,951,290.27 - consignment payouts 1-6 171,894,971.94 - costs 1-25 7,093,406.40. Reserve 5,585,164.77 kept in div 2; reinvestment 2,792,582.39 to div 5 (journal 26226776917); dividend pool 5,585,164.77 to div 4 (journal 26226778825). 19.47 earned shares at 31 Oct; 286,860.03 per share (payouts 7-8); 0.01 rounding remainder carried in div 4. Settled 3 Nov. The dividends (payouts 7-8) were paid from div 2 rather than from div 4, so div 4 held the full pool and div 2 was short by the same amount; correction: 5,585,164.76 from div 4 back to div 2."
+      "note": "First monthly distribution, 29 Sep - 31 Oct 2026 (statement in Claude outputs/eleventh-thesis-statement-2026-10.md). Surplus = net sales 192,951,290.27 - consignment payouts 1-6 171,894,971.94 - costs 1-25 7,093,406.40. Reserve 5,585,164.77 kept in div 2; reinvestment 2,792,582.39 to div 5 (journal 26226776917); dividend pool 5,585,164.77 to div 4 (journal 26226778825). 19.47 earned shares at 31 Oct; 286,860.03 per share (payouts 7-8); 0.01 rounding remainder carried in div 4. Settled 3 Nov. The dividends (payouts 7-8) were paid from div 2 rather than from div 4, so div 4 held the full pool and div 2 was short by the same amount; corrected 7 Nov 2026: 5,585,164.76 moved from div 4 back to div 2 (journal 26243118177); the 0.01 rounding remainder stays in div 4."
     }
   ]
 }
