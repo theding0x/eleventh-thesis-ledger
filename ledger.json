@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-30",
+    "updated": "2026-11-03",
     "phase": "consignment",
     "reserveTarget": 500000000,
     "shareUnit": 10000000,
@@ -299,8 +299,8 @@
       "item": "Fertilizer",
       "qty": 3945,
       "unit": 11160,
-      "status": "held",
-      "note": "Founder PI, item-exchange contract 237632744 to the corp at Nonni VI Kaalakiota Factory, accepted 30 Oct 19:47 UTC into division 2. The contract title reads \"c27-28\"; the ledger numbers it 29-30 because Kal'dor's ore contract (contributions 27-28) was accepted six minutes earlier. Valued at the Jita 4-4 best buy (11,160) from a snapshot taken about 20 minutes after delivery (30 Oct, 20:05 UTC). Taken from division 2 by Kalek, hauled to Jita and handed to Jormon Praetor by personal item-exchange contract, accepted 30 Oct (personal contracts are outside every ESI login preset, so the ID is not recorded). To be sold by Jormon on the corp account into wallet division 2; consignment payout under Art. IV.1, option C."
+      "status": "sold",
+      "note": "Founder PI, item-exchange contract 237632744 to the corp at Nonni VI Kaalakiota Factory, accepted 30 Oct 19:47 UTC into division 2. The contract title reads \"c27-28\"; the ledger numbers it 29-30 because Kal'dor's ore contract (contributions 27-28) was accepted six minutes earlier. Valued at the Jita 4-4 best buy (11,160) from a snapshot taken about 20 minutes after delivery (30 Oct, 20:05 UTC). Taken from division 2 by Kalek, hauled to Jita and handed to Jormon Praetor by personal item-exchange contract, accepted 30 Oct (personal contracts are outside every ESI login preset, so the ID is not recorded). Sold on the corp account into wallet division 2 as sale 11; consignment payout under Art. IV.1, option C."
     },
     {
       "id": 30,
@@ -309,8 +309,8 @@
       "item": "Synthetic Oil",
       "qty": 2125,
       "unit": 7187,
-      "status": "held",
-      "note": "Founder PI, item-exchange contract 237632744 to the corp at Nonni VI Kaalakiota Factory, accepted 30 Oct 19:47 UTC into division 2. The contract title reads \"c27-28\"; the ledger numbers it 29-30 because Kal'dor's ore contract (contributions 27-28) was accepted six minutes earlier. Valued at the Jita 4-4 best buy (7,187) from a snapshot taken about 20 minutes after delivery (30 Oct, 20:05 UTC). Taken from division 2 by Kalek, hauled to Jita and handed to Jormon Praetor by personal item-exchange contract, accepted 30 Oct (personal contracts are outside every ESI login preset, so the ID is not recorded). To be sold by Jormon on the corp account into wallet division 2; consignment payout under Art. IV.1, option C."
+      "status": "sold",
+      "note": "Founder PI, item-exchange contract 237632744 to the corp at Nonni VI Kaalakiota Factory, accepted 30 Oct 19:47 UTC into division 2. The contract title reads \"c27-28\"; the ledger numbers it 29-30 because Kal'dor's ore contract (contributions 27-28) was accepted six minutes earlier. Valued at the Jita 4-4 best buy (7,187) from a snapshot taken about 20 minutes after delivery (30 Oct, 20:05 UTC). Taken from division 2 by Kalek, hauled to Jita and handed to Jormon Praetor by personal item-exchange contract, accepted 30 Oct (personal contracts are outside every ESI login preset, so the ID is not recorded). Sold on the corp account into wallet division 2 as sale 12; consignment payout under Art. IV.1, option C."
     }
   ],
   "production": [
@@ -505,6 +505,26 @@
       "fees": 4110375.3,
       "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
       "note": "Corp sell order into division 2, placed by Jormon Praetor 23 Oct at 11,380 (order 7451899403), no repricing; filled in one transaction (6900001697). Fees: broker 1,233,056.10 (journal 26181969848) + sales tax 2,877,319.20 (journal 26182403885). Net 64,397,224.70. Lot: contribution 24 (Kalek, consignment)."
+    },
+    {
+      "id": 11,
+      "date": "2026-10-30",
+      "item": "Fertilizer",
+      "qty": 3945,
+      "gross": 47734500,
+      "fees": 2470204.15,
+      "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
+      "note": "Corp sell order 7458667468 into division 2, placed by Jormon Praetor 30 Oct 20:08 UTC at 12,100, no repricing; filled 3,945 in one transaction (6906007438) 30 Oct 23:20 UTC. Fees: broker 859,164.77 (1.80%, journal 26212652298) + sales tax 1,611,039.38 (3.375%, journal 26213254730). Net 45,264,295.85. Lot: contribution 29 (Kalek, consignment)."
+    },
+    {
+      "id": 12,
+      "date": "2026-10-31",
+      "item": "Synthetic Oil",
+      "qty": 2125,
+      "gross": 16549500,
+      "fees": 856417.14,
+      "market": "Jita IV - Moon 4 - Caldari Navy Assembly Plant",
+      "note": "Corp sell order 7458667659 into division 2, placed by Jormon Praetor 30 Oct 20:08 UTC at 7,788, no repricing; filled 2,125 in one transaction (6906467669) 31 Oct 13:58 UTC. Fees: broker 297,871.51 (1.80%, journal 26212653130) + sales tax 558,545.63 (3.375%, journal 26215579945). Net 15,693,082.86. Lot: contribution 30 (Kalek, consignment)."
     }
   ],
   "costs": [
@@ -699,6 +719,14 @@
       "description": "Office rental, Nonni VI CBD Corporation (month 2)",
       "amount": 10000,
       "note": "Division 1 journal 26212734386. Renewal of cost 8, paid a day late: corp assets showed the office impounded on 30 Oct. It holds the corp project deliveries hangar with 198 Industrial Explosives."
+    },
+    {
+      "id": 25,
+      "date": "2026-10-30",
+      "category": "office",
+      "description": "Office rental, Caldari Funds Unlimited (HQ) (month 2)",
+      "amount": 10000,
+      "note": "Division 1 journal 26213255906. Monthly renewal of cost 10. Not logged at the time; found on 2 Nov while reconciling division 1 for the October statement."
     }
   ],
   "payouts": [
@@ -741,6 +769,30 @@
       "kind": "consignment",
       "amount": 57957502.23,
       "note": "90% of net sale, Art. IV.1: contribution 24 (6,020 Fertilizer, net sale 64,397,224.70; sale 10). Settled net from div 2 under option C: 11,591,500.45 paid out (journal 26212745709); 46,366,001.78 lent back (loan 13, journal 26212743608). Cash legs confirmed by wallet balances on 30 Oct (div 2 11,740,132.85; div 7 93,626,664.88)."
+    },
+    {
+      "id": 6,
+      "date": "2026-11-03",
+      "member": "Kalek Tarn Mendol",
+      "kind": "consignment",
+      "amount": 54861640.84,
+      "note": "90% of net sale, Art. IV.1: contributions 29-30 (3,945 Fertilizer, net sale 45,264,295.85, sale 11; 2,125 Synthetic Oil, net sale 15,693,082.86, sale 12). Settled net from div 2 under option C: 10,972,328.17 paid out (journal 26226766733); 43,889,312.67 lent back (loan 14, journal 26226765264). Cash legs confirmed by the div 2 journal (balance 18,992,907.01 after both legs) and div 7 balance 137,515,977.55 on 3 Nov."
+    },
+    {
+      "id": 7,
+      "date": "2026-11-03",
+      "member": "Kalek Tarn Mendol",
+      "kind": "dividend",
+      "amount": 5370019.74,
+      "note": "October dividend (distribution 1): 18.72 earned shares x 286,860.03 per share, Art. VI.3. Paid in full, not lent back from div 2 (journal 26226782761). The pool itself was moved to div 4 (journal 26226778825), so div 4 still holds it until it is returned to div 2.."
+    },
+    {
+      "id": 8,
+      "date": "2026-11-03",
+      "member": "Kal'dor Aubaris",
+      "kind": "dividend",
+      "amount": 215145.02,
+      "note": "October dividend (distribution 1): 0.75 earned shares x 286,860.03 per share, Art. VI.3. Paid in full, not lent back from div 2 (journal 26226785951). The pool itself was moved to div 4 (journal 26226778825), so div 4 still holds it until it is returned to div 2.."
     }
   ],
   "loans": [
@@ -873,7 +925,24 @@
       "amount": 46366001.78,
       "estimate": false,
       "note": "Payout 5. Div 2 to Founder Loan wallet (division 7), journal 26212743608. Art. VII: interest-free, no shares, no dividends, repaid only from the reserve."
+    },
+    {
+      "id": 14,
+      "date": "2026-11-03",
+      "lender": "Kalek Tarn Mendol",
+      "description": "Consignment payout lent back (80%)",
+      "kind": "advance",
+      "amount": 43889312.67,
+      "estimate": false,
+      "note": "Payout 6. Div 2 to Founder Loan wallet (division 7), journal 26226765264. Art. VII: interest-free, no shares, no dividends, repaid only from the reserve."
     }
   ],
-  "distributions": []
+  "distributions": [
+    {
+      "id": 1,
+      "date": "2026-10-31",
+      "surplus": 13962911.93,
+      "note": "First monthly distribution, 29 Sep - 31 Oct 2026 (statement in Claude outputs/eleventh-thesis-statement-2026-10.md). Surplus = net sales 192,951,290.27 - consignment payouts 1-6 171,894,971.94 - costs 1-25 7,093,406.40. Reserve 5,585,164.77 kept in div 2; reinvestment 2,792,582.39 to div 5 (journal 26226776917); dividend pool 5,585,164.77 to div 4 (journal 26226778825). 19.47 earned shares at 31 Oct; 286,860.03 per share (payouts 7-8); 0.01 rounding remainder carried in div 4. Settled 3 Nov. The dividends (payouts 7-8) were paid from div 2 rather than from div 4, so div 4 held the full pool and div 2 was short by the same amount; correction: 5,585,164.76 from div 4 back to div 2."
+    }
+  ]
 }
