@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-07",
+    "updated": "2026-11-12",
     "phase": "consignment",
     "reserveTarget": 500000000,
     "shareUnit": 10000000,
@@ -311,6 +311,26 @@
       "unit": 7187,
       "status": "sold",
       "note": "Founder PI, item-exchange contract 237632744 to the corp at Nonni VI Kaalakiota Factory, accepted 30 Oct 19:47 UTC into division 2. The contract title reads \"c27-28\"; the ledger numbers it 29-30 because Kal'dor's ore contract (contributions 27-28) was accepted six minutes earlier. Valued at the Jita 4-4 best buy (7,187) from a snapshot taken about 20 minutes after delivery (30 Oct, 20:05 UTC). Taken from division 2 by Kalek, hauled to Jita and handed to Jormon Praetor by personal item-exchange contract, accepted 30 Oct (personal contracts are outside every ESI login preset, so the ID is not recorded). Sold on the corp account into wallet division 2 as sale 12; consignment payout under Art. IV.1, option C."
+    },
+    {
+      "id": 31,
+      "date": "2026-11-12",
+      "member": "Kalek Tarn Mendol",
+      "item": "Fertilizer",
+      "qty": 9765,
+      "unit": 11930,
+      "status": "held",
+      "note": "Founder PI, item-exchange contract 238096131 (untitled) to the corp at Nonni III Caldari Funds Unlimited, accepted 12 Nov 02:54 UTC; contract carried 9,765 Fertilizer and 2,010 Synthetic Oil (8,831.25 m3). Valued at the Jita 4-4 best buy from a snapshot taken about 6 minutes after delivery (12 Nov, ~03:00 UTC). Delivered before 14 Nov, so consignment terms apply (instant-payment notice, decision 2): paid 90% of net sale under Art. IV.1, option C. Being hauled to Jita by Kalek in his Tayra for sale by Jormon Praetor."
+    },
+    {
+      "id": 32,
+      "date": "2026-11-12",
+      "member": "Kalek Tarn Mendol",
+      "item": "Synthetic Oil",
+      "qty": 2010,
+      "unit": 7379,
+      "status": "held",
+      "note": "Founder PI, item-exchange contract 238096131 (untitled) to the corp at Nonni III Caldari Funds Unlimited, accepted 12 Nov 02:54 UTC; contract carried 9,765 Fertilizer and 2,010 Synthetic Oil (8,831.25 m3). Valued at the Jita 4-4 best buy from a snapshot taken about 6 minutes after delivery (12 Nov, ~03:00 UTC). Delivered before 14 Nov, so consignment terms apply (instant-payment notice, decision 2): paid 90% of net sale under Art. IV.1, option C. Being hauled to Jita by Kalek in his Tayra for sale by Jormon Praetor."
     }
   ],
   "production": [
